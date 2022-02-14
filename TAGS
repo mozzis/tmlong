@@ -1,0 +1,1399 @@
+__d16_selectors	inc\dos16.h	<    } __d16_selectors;>
+__d16_selectors	inc\dos16.h	<    } near __d16_selectors;>
+__d16_selectors	inc\dos16.h	<#define __d16_selectors ___d16_selectors>
+_CALLOCATE	\code\gss\inc\cgibind.h	<typedef struct _CALLOCATE {	/* allocation structure */>
+_CATEXTCAP	\code\gss\inc\cgibind.h	<typedef struct _CATEXTCAP {	/* Alpha Text Capabilities */>
+_CATEXTFONTANDSIZE	\code\gss\inc\cgibind.h	<typedef struct _CATEXTFONTANDSIZE {	/* Alpha Text Font Capabilities */>
+_CATEXTFONTCAP	\code\gss\inc\cgibind.h	<typedef struct _CATEXTFONTCAP {	/* Alpha Text Font Capabilities */>
+_CCHARDESC	\code\gss\inc\cgibind.h	<typedef struct _CCHARDESC {	/* Graphics Text Font Character Description */>
+_CCONFIGURATION	\code\gss\inc\cgibind.h	<typedef struct _CCONFIGURATION {/* CCgiConfiguration structure */>
+_CCTEXTATTR	\code\gss\inc\cgibind.h	<typedef struct _CCTEXTATTR {	/* Cursor Text Attributes */>
+_CCURDESC	\code\gss\inc\cgibind.h	<typedef struct _CCURDESC {	/* Cursor Description */>
+_CDCRECT	\code\gss\inc\cgibind.h	<typedef struct _CDCRECT {	/* Rectangle Coordinate Pair in DC space */>
+_CDCRECTSHORT	\code\gss\inc\cgibind.h	<typedef struct _CDCRECTSHORT {	/* Rectangle Coordinate Pair in DC space */>
+_CDCXY	\code\gss\inc\cgibind.h	<typedef struct _CDCXY {		/* (x,y) Coordinate Pair in DC space */>
+_CDCXYSHORT	\code\gss\inc\cgibind.h	<typedef struct _CDCXYSHORT {	/* (x,y) Coordinate Pair in DC space */>
+_CDISPLAYS	\code\gss\inc\cgibind.h	<typedef struct _CDISPLAYS {	/* Inqiure Displayable Bitmaps */>
+_CDVCAPABILITY	\code\gss\inc\cgibind.h	<typedef struct _CDVCAPABILITY {	/* Open Workstation Output Parms */>
+_CFILLREPR	\code\gss\inc\cgibind.h	<typedef struct _CFILLREPR {	/* Fill Representation */>
+_CFONTDESC	\code\gss\inc\cgibind.h	<typedef struct _CFONTDESC {	/* Graphics Text Font Description */>
+_CFONTMETRICS	\code\gss\inc\cgibind.h	<typedef struct _CFONTMETRICS {	/* Graphics Text Font Metrics */>
+_CGTEXTREPR	\code\gss\inc\cgibind.h	<typedef struct _CGTEXTREPR {	/* Graphics Text Representation */>
+_CGTX_EXTENT	\code\gss\inc\cgibind.h	<typedef struct _CGTX_EXTENT {	/* Graphics Text Extent */>
+_CLINEREPR	\code\gss\inc\cgibind.h	<typedef struct _CLINEREPR {	/* Polyline Represenation */>
+_CMARKERREPR	\code\gss\inc\cgibind.h	<typedef struct _CMARKERREPR {	/* Polymarker Representation */>
+_CMINMAX	\code\gss\inc\cgibind.h	<typedef struct _CMINMAX{	/* Min/Max Index pairs */>
+_CPAGEINFO	\code\gss\inc\cgibind.h	<typedef struct _CPAGEINFO {	/* Page Info */>
+_CPELSIZE	\code\gss\inc\cgibind.h	<typedef struct _CPELSIZE {	/* Pixel Size in Nanometers */>
+_CRECT	\code\gss\inc\cgibind.h	<typedef struct _CRECT {		/* Rectangle Coordinate Pair */>
+_CREQLOCATOR	\code\gss\inc\cgibind.h	<typedef struct _CREQLOCATOR {	/* Request Locator */>
+_CRGB	\code\gss\inc\cgibind.h	<typedef struct _CRGB {		/* RGB COLOR Value */>
+_CROWCOL	\code\gss\inc\cgibind.h	<typedef struct _CROWCOL {	/* Row/Column pair */>
+_CSAMPLELOCATOR	\code\gss\inc\cgibind.h	<typedef struct _CSAMPLELOCATOR { /* Sample Locator */>
+_CXY	\code\gss\inc\cgibind.h	<typedef struct _CXY {		/* (x,y) Coordinate Pair */>
+_d16_selectors	inc\dos16.h	<#define _d16_selectors __d16_selectors>
+_d16regs	inc\dos16.h	<typedef struct _d16regs {>
+_gdt	inc\dos16.h	<typedef struct _gdt>
+_idt	inc\dos16.h	<typedef struct _idt>
+_intvect	inc\dos16.h	<typedef struct _intvect>
+_loadds	inc\dos16.h	< #define _loadds _loadds    /* This is important only when compiling    */>
+_loadds	inc\dos16.h	< #define _loadds>
+_pgm_load_info	inc\dos16.h	<typedef struct _pgm_load_info       /* info about programs */>
+_stklen	main\project.c	<int _stklen = 0x4000;>
+acc_cmask	inc\dos16.h	<#define acc_cmask 0x83>
+acc_code	inc\dos16.h	<#define acc_code 0x9A   /* present, priv 0, code, read, accessed */>
+acc_data	inc\dos16.h	<#define acc_data 0x92   /* present, priv 0, data, write, accessed */>
+acc_dmask	inc\dos16.h	<#define acc_dmask 0x83>
+acc_DPL	inc\dos16.h	<#define acc_DPL 0x60    /* privilege level bits */>
+acc_INT	inc\dos16.h	<#define acc_INT 0x8E    /* interrupt gate */>
+acc_LDT	inc\dos16.h	<#define acc_LDT 0x82    /* Local Descriptor Table type */>
+acc_ref_bit	inc\dos16.h	<#define acc_ref_bit 1       /* descriptor referenced bit */>
+acc_TSS	inc\dos16.h	<#define acc_TSS 0x85    /* tss descriptor */>
+acc_write	inc\dos16.h	<#define acc_write 0x02  /* writable data, readable code access */>
+ACTION	inc\dos16.h	<typedef ACTION_RETURN (FarPtr ACTION)();   /* Package actions return ulong */>
+action_pack	inc\dos16.h	<typedef struct action_pack>
+ACTION_PACK	inc\dos16.h	<} ACTION_PACK;>
+ACTION_RETURN	inc\dos16.h	<typedef unsigned long ACTION_RETURN;>
+activeDeviceHandle	main\device.c	<static CDVHANDLE activeDeviceHandle;>
+add_string_to_string_set	main\cwindows.c	<static char ** add_string_to_string_set(char ** current_set, char * string,>
+ADJ_NM	inc\plotbox.h	<       ADJ_NM = 13, WLEN_UNITNUM = 14, SECOND = 20,>
+adjustXbyDCOffset	main\device.c	<CX adjustXbyDCOffset(CX xVal, CDCX dcOffset)>
+adjustYbyDCOffset	main\device.c	<CY adjustYbyDCOffset(CY yVal, CDCY dcOffset)>
+AlignText	main\oldsym.c	<SHORT AlignText( FLOAT cell_width, FLOAT cell_height,>
+AlignText	main\symbol.c	<SHORT AlignText( FLOAT cell_width, FLOAT cell_height,>
+ALLOCATE_FAR_MEMORY	main\display.c	<#define ALLOCATE_FAR_MEMORY(x) (char far *) farmalloc(x)>
+ALLOCATE_FAR_MEMORY	main\display.c	<#define ALLOCATE_FAR_MEMORY(x) (char far *) halloc(x, sizeof (char))>
+ALLOCATE_FAR_MEMORY	main\project.c	<#define ALLOCATE_FAR_MEMORY(x) (char far *) farmalloc(x)>
+ALLOCATE_FAR_MEMORY	main\project.c	<#define ALLOCATE_FAR_MEMORY(x) (char far *) halloc(x, sizeof (char))>
+allocDataPoints	main\data.c	<ERROR_CATEGORY allocDataPoints(void)>
+ALT_FLAG	inc\constant.h	<enum { RIGHTSHIFT = 1, LEFTSHIFT = 2, CNTRL_FLAG = 4, ALT_FLAG = 8 } ;>
+AMP	inc\plotbox.h	<       AMP  = 30, VOLT = 31, OHM = 32, COULOMB = 33, MHO = 34,>
+ANGLEBRICK	inc\tutordef.h	<#define ANGLEBRICK    23>
+ANGLEWALLP	inc\tutordef.h	<#define ANGLEWALLP    16>
+ANGSTROM	inc\plotbox.h	<enum { COUNTS =  0, ANGSTROM     =  1, NM     =  2, // nanometers>
+array_plot	main\curvdraw.c	<ERROR_CATEGORY array_plot(int CurveIndex, int StartPoint, int Count)>
+ASCII_BACKSPACE	inc\keys.h	<#define ASCII_BACKSPACE      8>
+AsciiPrefilterKeyMap	main\userin.c	<static struct key_map_pair  AsciiPrefilterKeyMap[] = {>
+attach_strings_to_window	main\cwindows.c	<void attach_strings_to_window(WINDOW * WindowPtr, char ** StringSet)>
+autocenter_window	main\cwindows.c	<void autocenter_window(WINDOW * WindowPtr)>
+autosize_window	main\cwindows.c	<void autosize_window(WINDOW * WindowPtr)>
+AxesFields	main\plotmenu.c	<MENU_FIELD AxesFields[] =>
+AxesMenu	main\plotmenu.c	<WMENU AxesMenu = {"Plot Setup Menu", AxesFields,>
+axis_data	inc\plotbox.h	<struct axis_data>
+AXISDATA	inc\plotbox.h	<typedef struct axis_data AXISDATA;>
+axisMarginAngle	main\plotbox.c	<void axisMarginAngle(PLOTBOX * plot, char which_one, int * margin,>
+BACKGROUND	main\device.c	<#define  BACKGROUND(x) ((int) ((x >> 4) & 0xF))>
+BeepEnabled	main\error.c	<BOOLEAN BeepEnabled = TRUE ;>
+BIOS16_inPM	inc\dos16.h	<#define BIOS16_inPM 0x04    /* dont defer BIOS int 16 function 1 */>
+bios_data_sel	inc\dos16.h	<#define bios_data_sel __d16_selectors.biosdata /* selector for BIOS data segment */>
+BIOS_KEYBOARD_INT	main\userin.c	<#define  BIOS_KEYBOARD_INT    0x16>
+biosdata_sel	inc\dos16.h	<#define biosdata_sel 0x40   /* selector for BIOS data segment */>
+BLACK	inc\tutordef.h	<#define BLACK	   0>
+BLUE	inc\tutordef.h	<#define BLUE	   4>
+bmInsertCursor	main\winmenu.c	<CBMHANDLE bmOverwriteCursor, bmInsertCursor;>
+bmOverwriteCursor	main\winmenu.c	<CBMHANDLE bmOverwriteCursor, bmInsertCursor;>
+BOOLEAN	inc\primtype.h	<typedef unsigned short BOOLEAN;>
+BOX	inc\tutordef.h	<#define BOX	   0>
+box	main\device.c	<void box(CRECT *boxrect)>
+box	main\display.c	<void box (int x, int y, int w, int h)>
+BRICKPAT	inc\tutordef.h	<#define BRICKPAT      11>
+BROWN	inc\tutordef.h	<#define BROWN	  13>
+BUFFER_SIZE	inc\tutordef.h	<#define BUFFER_SIZE 64000>
+BusyWorking	main\cwindows.c	<char * BusyWorking[] = { "Working...", NULL };>
+BusyWorkingEsc	main\cwindows.c	<char * BusyWorkingEsc[] = { "Working...", "Press <ESC> to abort", NULL };>
+BYTE	inc\primtype.h	<typedef unsigned char BYTE;>
+CalcClipRect	main\plotbox.c	<BOOLEAN CalcClipRect(PLOTBOX * Plot, float ZValue, CRECT *ClipRect)>
+CalcOffsetForZ	main\plotbox.c	<void CalcOffsetForZ(PLOTBOX *plot, FLOAT ZValue, PLONG pXOffset,>
+CALIB_INCLUDED	inc\calib.h	<#define CALIB_INCLUDED>
+CalibPoint	inc\calib.h	<} CalibPoint;>
+CALLOCATE	\code\gss\inc\cgibind.h	<} CALLOCATE;>
+CAllOnes	\code\gss\inc\cgibind.h	<    CAllOnes		= 16>
+CAllZeros	\code\gss\inc\cgibind.h	<    CAllZeros		=  1,	/* Also Known as Pixel Operations */>
+cap_display	main\display.c	<CDVCAPABILITY cap_display;    /* The DISPLAY device's capabilities */>
+cap_mouse	main\display.c	<CDVCAPABILITY cap_mouse;    /* The MOUSE device's capabilities */>
+CArcGDP	\code\gss\inc\cgibind.h	<    CArcGDP		=  2,>
+CArrow	\code\gss\inc\cgibind.h	<    CArrow         	=  1,>
+CarryFlag	inc\dos16.h	<#define CarryFlag 0x1           /* flags register mask for carry flag */>
+CASAP	\code\gss\inc\cgibind.h	<    CASAP		=  1,	/* As Soon As Possible */>
+CASCIIKey	\code\gss\inc\cgibind.h	<    CASCIIKey		=  2,>
+CATEXTCAP	\code\gss\inc\cgibind.h	<} CATEXTCAP;>
+CATEXTFONTANDSIZE	\code\gss\inc\cgibind.h	<} CATEXTFONTANDSIZE;>
+CATEXTFONTCAP	\code\gss\inc\cgibind.h	<} CATEXTFONTCAP;>
+CATEXTMODE	\code\gss\inc\cgibind.h	<} CATEXTMODE;>
+CBarGDP	\code\gss\inc\cgibind.h	<    CBarGDP		=  1,>
+CBGMODE	\code\gss\inc\cgibind.h	<} CBGMODE;>
+CBitmapFill	\code\gss\inc\cgibind.h	<    CBitmapFill		=  4>
+CBLACK	inc\colors.h	<  CBLACK = 0,    /*  0 */>
+CBLUE	inc\colors.h	<  CBLUE,         /* 14 */             >
+CBMFORMAT	\code\gss\inc\cgibind.h	<} CBMFORMAT;>
+CBMHANDLE	\code\gss\inc\cgibind.h	<typedef unsigned int CBMHANDLE; /* Bitmap Handle Type */>
+CBMTYPE	\code\gss\inc\cgibind.h	<} CBMTYPE;>
+CBNI	\code\gss\inc\cgibind.h	<    CBNI		=  2	/* Before Next Interaction */>
+CBROWN	inc\colors.h	<  CBROWN,        /*  6 */>
+CBRT_BLUE	inc\colors.h	<  CBRT_BLUE,     /*  8 */>
+CBRT_CYAN	inc\colors.h	<  CBRT_CYAN,     /* 11 */>
+CBRT_GREEN	inc\colors.h	<  CBRT_GREEN,    /*  9 */>
+CBRT_ORANGE	inc\colors.h	<  CBRT_ORANGE,   /* 15 */>
+CBRT_PURPLE	inc\colors.h	<  CBRT_PURPLE,   /* 12 */>
+CBRT_RED	inc\colors.h	<  CBRT_RED,      /* 10 */>
+CBRT_WHITE	inc\colors.h	<  CBRT_WHITE,    /*  1 */           >
+CBRT_YELLOW	inc\colors.h	<  CBRT_YELLOW,   /* 13 */>
+CCameraDevice	\code\gss\inc\cgibind.h	<    CCameraDevice	= 3,>
+CCanKey	\code\gss\inc\cgibind.h	<    CCanKey		= 12,	/* Cancel */>
+CCartridge	\code\gss\inc\cgibind.h	<    CCartridge		= 4>
+CCdoePage850	\code\gss\inc\cgibind.h	<    CCdoePage850	= 4,>
+CCellBoundaries	\code\gss\inc\cgibind.h	<    CCellBoundaries  = 0,>
+CCGISTAT	\code\gss\inc\cgibind.h	<} CCGISTAT;>
+CCHANGESTATE	\code\gss\inc\cgibind.h	<} CCHANGESTATE;>
+CCHARDESC	\code\gss\inc\cgibind.h	<} CCHARDESC;>
+CCHARPOSITFLAG	\code\gss\inc\cgibind.h	<} CCHARPOSITFLAG;>
+CCHARSET	\code\gss\inc\cgibind.h	<} CCHARSET;>
+CCheckMark	\code\gss\inc\cgibind.h	<    CCheckMark     	=  2,>
+CChoiceKey	\code\gss\inc\cgibind.h	<    CChoiceKey		=  3,>
+CCircleGDP	\code\gss\inc\cgibind.h	<    CCircleGDP		=  4,>
+CClrPgKey	\code\gss\inc\cgibind.h	<    CClrPgKey	        = 11,	/* Clear Page */>
+CCodePage437	\code\gss\inc\cgibind.h	<    CCodePage437	= 3,>
+CCodePage860	\code\gss\inc\cgibind.h	<    CCodePage860	= 5,>
+CCodePage863	\code\gss\inc\cgibind.h	<    CCodePage863	= 6,>
+CCodePage865	\code\gss\inc\cgibind.h	<    CCodePage865	= 7>
+CCOLOR	\code\gss\inc\cgibind.h	<typedef int CCOLOR;     	/* Color Type */>
+CCONFIGOP	\code\gss\inc\cgibind.h	<} CCONFIGOP;>
+CCONFIGURATION	\code\gss\inc\cgibind.h	<} CCONFIGURATION;>
+CCrossHair	\code\gss\inc\cgibind.h	<    CCrossHair     	=  0,>
+CCRTDevice	\code\gss\inc\cgibind.h	<    CCRTDevice		= 0,>
+CCTEXTATTR	\code\gss\inc\cgibind.h	<} CCTEXTATTR;>
+CCTEXTMODE	\code\gss\inc\cgibind.h	<} CCTEXTMODE;>
+CCURDESC	\code\gss\inc\cgibind.h	<} CCURDESC;>
+CCURHANDLE	\code\gss\inc\cgibind.h	<} CCURHANDLE;>
+CCursorKey	\code\gss\inc\cgibind.h	<    CCursorKey		=  1,>
+CCYAN	inc\colors.h	<  CCYAN,         /*  4 */>
+CdAND_NOTs	\code\gss\inc\cgibind.h	<    CdAND_NOTs		=  5,>
+CdANDs	\code\gss\inc\cgibind.h	<    CdANDs 		=  2,>
+CDCRECT	\code\gss\inc\cgibind.h	<} CDCRECT;>
+CDCRECTSHORT	\code\gss\inc\cgibind.h	<} CDCRECTSHORT;>
+CDCX	\code\gss\inc\cgibind.h	<typedef int CDCX;>
+CDCX	\code\gss\inc\cgibind.h	<typedef long  CDCX;		/* dc x coordinate */>
+CDCXY	\code\gss\inc\cgibind.h	<} CDCXY;>
+CDCXYSHORT	\code\gss\inc\cgibind.h	<} CDCXYSHORT;>
+CDCY	\code\gss\inc\cgibind.h	<typedef int CDCY;>
+CDCY	\code\gss\inc\cgibind.h	<typedef long  CDCY;		/* dc y coordinate */>
+cdecl	inc\dos16.h	<#define cdecl>
+CDEFER	\code\gss\inc\cgibind.h	<    CDEFER 		=  0,	/* Defer, at some time in the future */>
+CDEFERMODE	\code\gss\inc\cgibind.h	<} CDEFERMODE;>
+CDelKey	\code\gss\inc\cgibind.h	<    CDelKey		=  6,	/* Delete Character */>
+CDelLnKey	\code\gss\inc\cgibind.h	<    CDelLnKey	        =  8,	/* Delete Line */>
+CDependent	\code\gss\inc\cgibind.h	<    CDependent          = 0,	/* Bitmaps/CText Share Same View Surface */>
+CDeviceUnits	\code\gss\inc\cgibind.h	<    CDeviceUnits	= 2, 	/* Device Dependent units */>
+CDisable	\code\gss\inc\cgibind.h	<    CDisable		=  0,>
+CDISPLAYS	\code\gss\inc\cgibind.h	<} CDISPLAYS;>
+CDISTANCE	\code\gss\inc\cgibind.h	<typedef float CDISTANCE;	/* vdc distance */>
+CDISTANCE	\code\gss\inc\cgibind.h	<typedef int CDISTANCE;>
+CdOR_NOTs	\code\gss\inc\cgibind.h	<    CdOR_NOTs		= 14,>
+CdORs	\code\gss\inc\cgibind.h	<    CdORs		=  8,>
+CDownKey	\code\gss\inc\cgibind.h	<    CDownKey		=  2,>
+CDownLeftKey	\code\gss\inc\cgibind.h	<    CDownLeftKey 	=  1,>
+CDownRightKey	\code\gss\inc\cgibind.h	<    CDownRightKey	=  3,>
+CDVCAPABILITY	\code\gss\inc\cgibind.h	<} CDVCAPABILITY;>
+CDVHANDLE	\code\gss\inc\cgibind.h	<typedef unsigned int CDVHANDLE;	/* Device Handle Type */>
+CDVOPEN	\code\gss\inc\cgibind.h	<typedef struct CDVOPEN {	/* Open Workstation Input Parms */>
+CDVOPEN	\code\gss\inc\cgibind.h	<} CDVOPEN;>
+CDVTYPE	\code\gss\inc\cgibind.h	<} CDVTYPE;>
+CdXORs	\code\gss\inc\cgibind.h	<    CdXORs 		=  7,>
+CEeolKey	\code\gss\inc\cgibind.h	<    CEeolKey	        =  9,	/* Erase to End of Line */>
+CEeosKey	\code\gss\inc\cgibind.h	<    CEeosKey	        = 10,	/* Erase to End of Screen */>
+CElArcGDP	\code\gss\inc\cgibind.h	<    CElArcGDP		=  5,>
+CEllipseGDP	\code\gss\inc\cgibind.h	<    CEllipseGDP		=  7>
+cellwh	main\display.c	<  CXY  cellwh;           /* Graphics text character cell */>
+CElPieSliceGDP	\code\gss\inc\cgibind.h	<    CElPieSliceGDP	=  6,>
+CEnable	\code\gss\inc\cgibind.h	<    CEnable		=  1,>
+CEndKey	\code\gss\inc\cgibind.h	<    CEndKey		=  2,	/* End */>
+CEnterKey	\code\gss\inc\cgibind.h	<    CEnterKey	        = 17    /* Enter key */>
+CEventInput	\code\gss\inc\cgibind.h	<    CEventInput		=  3>
+CFalse	\code\gss\inc\cgibind.h	<    CFalse 		=  0,>
+CFILLREPR	\code\gss\inc\cgibind.h	<} CFILLREPR;>
+CFILLSTYLE	\code\gss\inc\cgibind.h	<} CFILLSTYLE;>
+CFONTDESC	\code\gss\inc\cgibind.h	<} CFONTDESC;>
+CFONTMETRICS	\code\gss\inc\cgibind.h	<} CFONTMETRICS;>
+CFONTSCALE	\code\gss\inc\cgibind.h	<} CFONTSCALE;>
+CFONTTYPE	\code\gss\inc\cgibind.h	<} CFONTTYPE;>
+CFullDepth	\code\gss\inc\cgibind.h	<    CFullDepth		=  0,	/* Full Depth Bitmap */>
+CFullDepthOnly	\code\gss\inc\cgibind.h	<    CFullDepthOnly 	=  1,	/* Device Only Supports Full Depth */>
+CFullScreen	\code\gss\inc\cgibind.h	<    CFullScreen		= 0, 	/* Map VDC space to full extent of each axis */>
+CGDPATTRS	\code\gss\inc\cgibind.h	<} CGDPATTRS;>
+CGDPFill	\code\gss\inc\cgibind.h	<    CGDPFill	        =  3,>
+CGDPNone	\code\gss\inc\cgibind.h	<    CGDPNone	        =  4,>
+CGDPOther	\code\gss\inc\cgibind.h	<    CGDPOther	        =  5>
+CGDPPolyline	\code\gss\inc\cgibind.h	<    CGDPPolyline	=  0,>
+CGDPPolymarker	\code\gss\inc\cgibind.h	<    CGDPPolymarker	=  1,>
+CGDPSAVAIL	\code\gss\inc\cgibind.h	<} CGDPSAVAIL;>
+CGDPText	\code\gss\inc\cgibind.h	<    CGDPText	        =  2,>
+CGI_NOT_PRESENT	inc\display.h	<#define CGI_NOT_PRESENT -3003>
+CGI_NOT_PRESENT	inc\project.h	<#define CGI_NOT_PRESENT -3003>
+CGI_NOT_TRANSIENT	inc\display.h	<#define CGI_NOT_TRANSIENT   -2978>
+CGI_NOT_TRANSIENT	inc\project.h	<#define CGI_NOT_TRANSIENT   -2978>
+CGREEN	inc\colors.h	<  CGREEN,        /*  2 */>
+CGTEXTREPR	\code\gss\inc\cgibind.h	<} CGTEXTREPR;>
+CGTX_EXTENT	\code\gss\inc\cgibind.h	<} CGTX_EXTENT;>
+CHAR	inc\primtype.h	<typedef char CHAR;>
+char_delete_at_cursor	main\winmenu.c	<void char_delete_at_cursor(void)>
+char_delete_left	main\winmenu.c	<void char_delete_left(void)>
+char_insert	main\winmenu.c	<void char_insert(unsigned char key)>
+CharAction	main\cwindows.c	<typedef SHORT (CharAction)(WINDOW *, UCHAR Row, SHORT Rows, USHORT *attr,>
+CHardwareBitmap	\code\gss\inc\cgibind.h	<    CHardwareBitmap	= 1,>
+CHardwareOutline	\code\gss\inc\cgibind.h	<    CHardwareOutline	= 3,>
+CHatchFill	\code\gss\inc\cgibind.h	<    CHatchFill		=  3,>
+CHECKERBOARD	inc\tutordef.h	<#define CHECKERBOARD  29>
+CHEIGHT	\code\gss\inc\cgibind.h	<typedef float CHEIGHT;		/* vdc height */>
+CHEIGHT	\code\gss\inc\cgibind.h	<typedef int CHEIGHT;>
+CHelpKey	\code\gss\inc\cgibind.h	<    CHelpKey	        = 15,	/* Help */>
+CHOICE_ESCAPE	inc\keys.h	<#define CHOICE_ESCAPE       -1         >
+choice_window	main\cwindows.c	<int choice_window(char ** message_text, char ** choice_text,>
+CHollowFill	\code\gss\inc\cgibind.h	<    CHollowFill		=  0,>
+CHomeKey	\code\gss\inc\cgibind.h	<    CHomeKey	        =  1,	/* Home */>
+CHORALIGN	\code\gss\inc\cgibind.h	<} CHORALIGN;>
+CHourglass	\code\gss\inc\cgibind.h	<    CHourglass		=  5  /* > 5, User Defined Cursor */>
+chwh	main\display.c	<  CXY  chwh;             /* Graphics text character width */>
+CIBMPCExtASCII	\code\gss\inc\cgibind.h	<    CIBMPCExtASCII	= 0,>
+CIndependent	\code\gss\inc\cgibind.h	<    CIndependent        = 1	/* Bitmaps/CText Independent */>
+CINMODE	\code\gss\inc\cgibind.h	<} CINMODE;>
+CInputOnly	\code\gss\inc\cgibind.h	<    CInputOnly		= 1,>
+CInputOutput	\code\gss\inc\cgibind.h	<    CInputOutput	= 2,>
+CInsKey	\code\gss\inc\cgibind.h	<    CInsKey		=  5,	/* Insert Character */>
+CInsLnKey	\code\gss\inc\cgibind.h	<    CInsLnKey	        =  7,	/* Insert Line */>
+CINTERIORFILL	\code\gss\inc\cgibind.h	<} CINTERIORFILL;>
+CIRCLESPAT	inc\tutordef.h	<#define CIRCLESPAT    13>
+CKEYBOARDKEYS	\code\gss\inc\cgibind.h	<} CKEYBOARDKEYS;>
+CKEYTYPES	\code\gss\inc\cgibind.h	<} CKEYTYPES;>
+CLeftKey	\code\gss\inc\cgibind.h	<    CLeftKey		=  4,>
+CLENGTH	\code\gss\inc\cgibind.h	<typedef float CLENGTH;		/* string lengths in vdc units */>
+CLENGTH	\code\gss\inc\cgibind.h	<typedef int CLENGTH;>
+CLINEREPR	\code\gss\inc\cgibind.h	<} CLINEREPR;>
+CLINETYPE	\code\gss\inc\cgibind.h	<} CLINETYPE;>
+CLN_DashedDotDot	\code\gss\inc\cgibind.h	<    CLN_DashedDotDot    =  6,>
+CLN_DashedDotted	\code\gss\inc\cgibind.h	<    CLN_DashedDotted	=  4,>
+CLN_Dotted	\code\gss\inc\cgibind.h	<    CLN_Dotted		=  3,>
+CLN_LongDashed	\code\gss\inc\cgibind.h	<    CLN_LongDashed	=  2,>
+CLN_MediumDashed	\code\gss\inc\cgibind.h	<    CLN_MediumDashed	=  5,>
+CLN_ShortDashed	\code\gss\inc\cgibind.h	<    CLN_ShortDashed	=  7	/* > 7 = Device-Dependent */>
+CLN_Solid	\code\gss\inc\cgibind.h	<    CLN_Solid		=  1,>
+CLN_UserDefined	\code\gss\inc\cgibind.h	<    CLN_UserDefined	=  0,>
+CLoadCGI	\code\gss\inc\cgibind.h	<    CLoadCGI            = 1,>
+CLoadedApp	\code\gss\inc\cgibind.h	<    CLoadedApp          = 5     /* Configuration loaded via CCgiConfiguration */>
+CLoadedStatic	\code\gss\inc\cgibind.h	<    CLoadedStatic       = 1,    /* GSS*CGI is loaded via CONFIG.SYS */>
+CLoadedTSR	\code\gss\inc\cgibind.h	<    CLoadedTSR          = 4,    /* TSR configuration loaded by DRIVERS.EXE */>
+close_window	main\cwindows.c	<void close_window(WINDOW * W)>
+closeGraphSystem	main\device.c	<int closeGraphSystem(void)>
+CM	inc\plotbox.h	<       CM     =  5,                                 // centimeters>
+CMapped	\code\gss\inc\cgibind.h	<    CMapped		=  1	/* Mapped Bitmap */>
+CMappedFullDepth	\code\gss\inc\cgibind.h	<    CMappedFullDepth	=  2	/* Device Supports Mapped & Full Depth */>
+CMARKERREPR	\code\gss\inc\cgibind.h	<} CMARKERREPR;>
+CMARKERTYPE	\code\gss\inc\cgibind.h	<} CMARKERTYPE;>
+CMetafile	\code\gss\inc\cgibind.h	<    CMetafile		= 4,>
+CMetafileDevice	\code\gss\inc\cgibind.h	<    CMetafileDevice	= 4,>
+CMINMAX	\code\gss\inc\cgibind.h	<} CMINMAX;>
+CMK_Box	\code\gss\inc\cgibind.h	<    CMK_Box	  	=  4,>
+CMK_Cross	\code\gss\inc\cgibind.h	<    CMK_Cross		=  5,>
+CMK_Diamond	\code\gss\inc\cgibind.h	<    CMK_Diamond 	=  6	/* > 6 = Device-Dependent */>
+CMK_Dot	\code\gss\inc\cgibind.h	<    CMK_Dot		=  1,>
+CMK_Plus	\code\gss\inc\cgibind.h	<    CMK_Plus		=  2,>
+CMK_Star	\code\gss\inc\cgibind.h	<    CMK_Star		=  3,>
+CMK_UserDefined	\code\gss\inc\cgibind.h	<    CMK_UserDefined 	=  0,>
+CMODE	inc\display.h	<#define CMODE 2>
+CMODE	inc\project.h	<#define CMODE 2>
+CMOVEMENTKEYS	\code\gss\inc\cgibind.h	<} CMOVEMENTKEYS;>
+CMulipleBitmaps	\code\gss\inc\cgibind.h	<    CMulipleBitmaps	= 0,>
+CNextKey	\code\gss\inc\cgibind.h	<    CNextKey	        = 13,	/* Next */>
+CNo	\code\gss\inc\cgibind.h	<    CNo			=  0,>
+CNoBitmaps	\code\gss\inc\cgibind.h	<    CNoBitmaps		=  0,	/* Device Does Not Support Bitmaps */>
+CNoChange	\code\gss\inc\cgibind.h	<    CNoChange   	=  2,>
+CNoGDPAttr	\code\gss\inc\cgibind.h	<    CNoGDPAttr	        = -1,>
+CNoGDPDefined	\code\gss\inc\cgibind.h	<    CNoGDPDefined	= -1,>
+CNoInput	\code\gss\inc\cgibind.h	<    CNoInput		=  0,>
+CNoKey	\code\gss\inc\cgibind.h	<    CNoKey 		=  0,>
+CNoMovement	\code\gss\inc\cgibind.h	<    CNoMovement		=  5>
+CNoOp	\code\gss\inc\cgibind.h	<    CNoOp		=  6,>
+CNormal	\code\gss\inc\cgibind.h	<    CNormal		=  0,	/* Normal Text */>
+CNoRubberband	\code\gss\inc\cgibind.h	<    CNoRubberband	=  0,>
+CNOT_dANDs	\code\gss\inc\cgibind.h	<    CNOT_dANDs		= 15,>
+CNOT_dORs	\code\gss\inc\cgibind.h	<    CNOT_dORs		=  9,>
+CNOT_dXORs	\code\gss\inc\cgibind.h	<    CNOT_dXORs		= 10,>
+CNOTd	\code\gss\inc\cgibind.h	<    CNOTd		= 11,>
+CNOTd_ANDs	\code\gss\inc\cgibind.h	<    CNOTd_ANDs		=  3,>
+CNOTd_ORs	\code\gss\inc\cgibind.h	<    CNOTd_ORs		= 12,>
+CNotLoaded	\code\gss\inc\cgibind.h	<    CNotLoaded          = 0,    /* No GSS*CGI configuration loaded */>
+CNOTs	\code\gss\inc\cgibind.h	<    CNOTs		= 13,>
+CNTRL_FLAG	inc\constant.h	<enum { RIGHTSHIFT = 1, LEFTSHIFT = 2, CNTRL_FLAG = 4, ALT_FLAG = 8 } ;>
+COff	\code\gss\inc\cgibind.h	<    COff		=  0,>
+col2sav	main\display.c	<  CRGB col2sav;          /* CRGB color triple */>
+colary	main\display.c	<CCOLOR  colary[] = {>
+color_hues	inc\colors.h	<enum color_hues {>
+color_in	main\display.c	<  CRGB color_in;         /* Input CRGB color triple */>
+color_out	main\display.c	<  CRGB color_out;        /* Output CRGB color triple */>
+COLOR_PAIR	inc\colors.h	<} COLOR_PAIR;>
+COLOR_SET	inc\colors.h	<typedef struct colorset COLOR_SET;>
+colordex	inc\colors.h	<enum colordex >
+COLORS_DEFAULT	inc\colors.h	<enum { COLORS_DEFAULT=0, COLORS_MESSAGE, COLORS_ERROR, COLORS_MENU } ;>
+COLORS_ERROR	inc\colors.h	<enum { COLORS_DEFAULT=0, COLORS_MESSAGE, COLORS_ERROR, COLORS_MENU } ;>
+COLORS_INCLUDED	inc\colors.h	<#define COLORS_INCLUDED>
+COLORS_MENU	inc\colors.h	<enum { COLORS_DEFAULT=0, COLORS_MESSAGE, COLORS_ERROR, COLORS_MENU } ;>
+COLORS_MESSAGE	inc\colors.h	<enum { COLORS_DEFAULT=0, COLORS_MESSAGE, COLORS_ERROR, COLORS_MENU } ;>
+colorset	inc\colors.h	<struct colorset {>
+colorset_CI_pair	inc\colors.h	<typedef struct colorset_CI_pair {>
+ColorSets	main\device.c	<COLOR_SET ColorSets[MAX_COLOR] =>
+ColorTable	main\device.c	<CRGB ColorTable[16] = {                >
+column_to_x	main\device.c	<int column_to_x(int column)>
+COn	\code\gss\inc\cgibind.h	<    COn			=  1,>
+config	main\display.c	<CCONFIGURATION config;                  /* GSS*CGI Configuration structure */>
+config	main\project.c	<CCONFIGURATION config;        /* GSS*CGI Configuration structure */>
+CONSTANT_INCLUDED	inc\constant.h	<#define CONSTANT_INCLUDED>
+CONTEXT	main\winmenu.c	<} CONTEXT;>
+CONTINUOUS	inc\tutordef.h	<#define CONTINUOUS   0>
+ConvertDispToField	main\winmenu.c	<static void ConvertDispToField(MENU_FIELD * Field)>
+COpaque	\code\gss\inc\cgibind.h	<    COpaque		=  0,	/* Opaque */>
+COpenWorkstation	\code\gss\inc\cgibind.h	<#define COpenWorkstation COpenWorkstation_C>
+COpenWorkstation	\code\gss\inc\cgibind.h	<#define COpenWorkstation COpenWorkstation_H /* for memory model in effect */>
+COpenWorkstation	\code\gss\inc\cgibind.h	<#define COpenWorkstation COpenWorkstation_H /* memory model in effect   */>
+COpenWorkstation	\code\gss\inc\cgibind.h	<#define COpenWorkstation COpenWorkstation_L>
+COpenWorkstation	\code\gss\inc\cgibind.h	<#define COpenWorkstation COpenWorkstation_M>
+COpenWorkstation	\code\gss\inc\cgibind.h	<#define COpenWorkstation COpenWorkstation_S	/* Small model is default */>
+CopyPlotToHeader	main\doplot.c	<void CopyPlotToHeader(void)>
+COtherBoundaries	\code\gss\inc\cgibind.h	<    COtherBoundaries = 1>
+COtherDevice	\code\gss\inc\cgibind.h	<    COtherDevice	= 5>
+COtherWorkstation	\code\gss\inc\cgibind.h	<    COtherWorkstation   = 5>
+COULOMB	inc\plotbox.h	<       AMP  = 30, VOLT = 31, OHM = 32, COULOMB = 33, MHO = 34,>
+COUNTS	inc\plotbox.h	<enum { COUNTS =  0, ANGSTROM     =  1, NM     =  2, // nanometers>
+COutputOnly	\code\gss\inc\cgibind.h	<    COutputOnly		= 0,>
+CPAGEINFO	\code\gss\inc\cgibind.h	<} CPAGEINFO;>
+CPalmOfHand	\code\gss\inc\cgibind.h	<    CPalmOfHand    	=  4,>
+CPatternFill	\code\gss\inc\cgibind.h	<    CPatternFill	=  2,>
+CPELSIZE	\code\gss\inc\cgibind.h	<} CPELSIZE;>
+CPELSIZEX	\code\gss\inc\cgibind.h	<typedef int CPELSIZEX;>
+CPELSIZEX	\code\gss\inc\cgibind.h	<typedef long  CPELSIZEX;	/* pixel size in x */>
+CPELSIZEY	\code\gss\inc\cgibind.h	<typedef int CPELSIZEY;>
+CPELSIZEY	\code\gss\inc\cgibind.h	<typedef long  CPELSIZEY;	/* pixel size in y */>
+CPgDnKey	\code\gss\inc\cgibind.h	<    CPgDnKey	        =  4,	/* Page Down */>
+CPgUpKey	\code\gss\inc\cgibind.h	<    CPgUpKey	        =  3,	/* Page Up */>
+CPieSliceGDP	\code\gss\inc\cgibind.h	<    CPieSliceGDP	=  3,>
+CPixelReplicate	\code\gss\inc\cgibind.h	<    CPixelReplicate	= 1,>
+CPIXOPS	\code\gss\inc\cgibind.h	<} CPIXOPS;			/* >16 = Device-Dependent */>
+CPlotterDevice	\code\gss\inc\cgibind.h	<    CPlotterDevice	= 1,>
+CPointingHand	\code\gss\inc\cgibind.h	<    CPointingHand  	=  3,>
+CPREDEFCURSORS	\code\gss\inc\cgibind.h	<} CPREDEFCURSORS;>
+CPreserveAspect	\code\gss\inc\cgibind.h	<    CPreserveAspect	= 1, 	/* Map VDC space to longest axis */>
+CPrevKey	\code\gss\inc\cgibind.h	<    CPrevKey	        = 14,	/* Previous */>
+CPrinterDevice	\code\gss\inc\cgibind.h	<    CPrinterDevice	= 2,>
+CPrtScrKey	\code\gss\inc\cgibind.h	<    CPrtScrKey	        = 16,	/* Print Screen */>
+CPURPLE	inc\colors.h	<  CPURPLE,       /*  5 */>
+CR	inc\keys.h	<#define CR                  13>
+CRealized	\code\gss\inc\cgibind.h	<    CRealized	 	=  1	/* Realized */>
+create_plotbox	main\plotbox.c	<void create_plotbox(void)>
+CRECT	\code\gss\inc\cgibind.h	<} CRECT;>
+CRED	inc\colors.h	<  CRED,          /*  3 */>
+CRemoveCGI	\code\gss\inc\cgibind.h	<    CRemoveCGI          = 2,>
+CReplace	\code\gss\inc\cgibind.h	<    CReplace		=  4,>
+CREQLOCATOR	\code\gss\inc\cgibind.h	<} CREQLOCATOR;>
+CRequestInput	\code\gss\inc\cgibind.h	<    CRequestInput	=  1,>
+CResetCGI	\code\gss\inc\cgibind.h	<    CResetCGI           = 3>
+CRGB	\code\gss\inc\cgibind.h	<} CRGB;>
+CRightKey	\code\gss\inc\cgibind.h	<    CRightKey		=  6,>
+crit_err	inc\error.h	<struct crit_err {>
+crit_err	inc\errors.h	<struct crit_err {>
+CROWCOL	\code\gss\inc\cgibind.h	<} CROWCOL;>
+CRUBBERBAND	\code\gss\inc\cgibind.h	<} CRUBBERBAND;>
+CRubberbandLines	\code\gss\inc\cgibind.h	<    CRubberbandLines	=  1,>
+CRubberbandRects	\code\gss\inc\cgibind.h	<    CRubberbandRects	=  2>
+CSampleInput	\code\gss\inc\cgibind.h	<    CSampleInput	=  2,>
+CSAMPLELOCATOR	\code\gss\inc\cgibind.h	<} CSAMPLELOCATOR;>
+CSCREENKEYS	\code\gss\inc\cgibind.h	<} CSCREENKEYS;>
+CSegmentStorage	\code\gss\inc\cgibind.h	<    CSegmentStorage	= 3,>
+CSet	\code\gss\inc\cgibind.h	<    CSet		=  0,	/* Set */>
+CSETREALIZED	\code\gss\inc\cgibind.h	<} CSETREALIZED;>
+CShortAxis	\code\gss\inc\cgibind.h	<    CShortAxis		= 3	/* Map VDC space to shortest axis */>
+CSoftwareBitmap	\code\gss\inc\cgibind.h	<    CSoftwareBitmap	= 0,>
+CSoftwareOutline	\code\gss\inc\cgibind.h	<    CSoftwareOutline	= 2,>
+CSolidFill	\code\gss\inc\cgibind.h	<    CSolidFill		=  1,>
+CSpecialCharSet	\code\gss\inc\cgibind.h	<    CSpecialCharSet	= 2,>
+CSpecialKey	\code\gss\inc\cgibind.h	<    CSpecialKey		=  4,>
+CStatusCGI	\code\gss\inc\cgibind.h	<    CStatusCGI          = 0,>
+cstrng	main\display.c	<  char cstrng[80];       /* General-purpose character buffer */>
+CSubscript	\code\gss\inc\cgibind.h	<    CSubscript  	=  1,	/* Subscripted Text */>
+CSuperscript	\code\gss\inc\cgibind.h	<    CSuperscript 	=  2	/* Superscripted Text */>
+CToggle	\code\gss\inc\cgibind.h	<    CToggle		=  3>
+CTRANSFORM	\code\gss\inc\cgibind.h	<} CTRANSFORM;>
+CTransient	\code\gss\inc\cgibind.h	<    CTransient          = 2,    /* A transient configuration w/o drivers */>
+CTransientLoaded	\code\gss\inc\cgibind.h	<    CTransientLoaded    = 3,    /* A transient configuration with drivers */>
+CTransparent	\code\gss\inc\cgibind.h	<    CTransparent	=  1	/* Transparent */>
+CTrue	\code\gss\inc\cgibind.h	<    CTrue		=  1>
+CTX_Base	\code\gss\inc\cgibind.h	<    CTX_Base		=  0,>
+CTX_Bottom	\code\gss\inc\cgibind.h	<    CTX_Bottom		=  3,>
+CTX_Cap	\code\gss\inc\cgibind.h	<    CTX_Cap		=  2,>
+CTX_Center	\code\gss\inc\cgibind.h	<    CTX_Center		=  1,>
+CTX_Half	\code\gss\inc\cgibind.h	<    CTX_Half		=  1,>
+CTX_Left	\code\gss\inc\cgibind.h	<    CTX_Left		=  0,>
+CTX_Right	\code\gss\inc\cgibind.h	<    CTX_Right 		=  2>
+CTX_Top	\code\gss\inc\cgibind.h	<    CTX_Top		=  4>
+ctype	main\winmenu.c	<enum ctype { CURSORTYPE_NORMAL = 0, CURSORTYPE_OVERSTRIKE };>
+CUniformScale	\code\gss\inc\cgibind.h	<    CUniformScale	= 2>
+CUpKey	\code\gss\inc\cgibind.h	<    CUpKey		=  8,>
+CUpLeftKey	\code\gss\inc\cgibind.h	<    CUpLeftKey		=  7,>
+CUpRightKey	\code\gss\inc\cgibind.h	<    CUpRightKey		=  9>
+Current	main\winmenu.c	<CONTEXT Current;>
+CurrentShiftMode	main\keymenu.c	<USHORT CurrentShiftMode = 0;        >
+cursor_full_left	main\winmenu.c	<void cursor_full_left(void)>
+cursor_full_right	main\winmenu.c	<void cursor_full_right(void)>
+CURSOR_INCLUDED	inc\cursor.h	<#define CURSOR_INCLUDED>
+cursor_left	main\winmenu.c	<void cursor_left(void)>
+cursor_right	main\winmenu.c	<void cursor_right(void)>
+CursorBMSize	main\winmenu.c	<CXY CursorBMSize = {16,16};>
+CURSORMODE_ACCUM	inc\cursor.h	<#define CURSORMODE_ACCUM   2>
+CURSORMODE_LIVE	inc\cursor.h	<#define CURSORMODE_LIVE    1>
+CURSORMODE_NORMAL	inc\cursor.h	<#define CURSORMODE_NORMAL  0>
+CURSORMODE_PAUSED	inc\cursor.h	<#define CURSORMODE_PAUSED  3>
+CURSORMODE_SELECT	inc\cursor.h	<#define CURSORMODE_SELECT  5>
+CURSORMODE_TAGGED	inc\cursor.h	<#define CURSORMODE_TAGGED  6>
+CURSORMODE_ZOOM	inc\cursor.h	<#define CURSORMODE_ZOOM    4>
+CURSORSTAT	inc\cursor.h	<} CURSORSTAT;>
+CURSORTYPE_NORMAL	main\winmenu.c	<enum ctype { CURSORTYPE_NORMAL = 0, CURSORTYPE_OVERSTRIKE };>
+CURSORTYPE_OVERSTRIKE	main\winmenu.c	<enum ctype { CURSORTYPE_NORMAL = 0, CURSORTYPE_OVERSTRIKE };>
+CURVDRAW_INCLUDED	inc\curvdraw.h	<#define CURVDRAW_INCLUDED>
+curve_peak_label	inc\plotbox.h	<struct curve_peak_label>
+CVERTALIGN	\code\gss\inc\cgibind.h	<} CVERTALIGN;>
+CVIEWMODE	\code\gss\inc\cgibind.h	<} CVIEWMODE;>
+CWHITE	inc\colors.h	<  CWHITE,        /*  7 */           >
+CWIDTH	\code\gss\inc\cgibind.h	<typedef float CWIDTH;		/* vdc width */>
+CWIDTH	\code\gss\inc\cgibind.h	<typedef int CWIDTH;>
+CWINDOWS_INCLUDED	inc\cwindows.h	<#define CWINDOWS_INCLUDED>
+CWORKTYPE	\code\gss\inc\cgibind.h	<} CWORKTYPE;>
+CX	\code\gss\inc\cgibind.h	<typedef float CX;		/* vdc x coordinate */>
+CX	\code\gss\inc\cgibind.h	<typedef int CX;>
+CX34ASCII	\code\gss\inc\cgibind.h	<    CX34ASCII		= 1,>
+CXSECTION	\code\gss\inc\cgibind.h	<} CXSECTION;>
+CXY	\code\gss\inc\cgibind.h	<} CXY;>
+CY	\code\gss\inc\cgibind.h	<typedef float CY;		/* vdc y coordinate */>
+CY	\code\gss\inc\cgibind.h	<typedef int CY;>
+CYAN	inc\tutordef.h	<#define CYAN	   6>
+CYes	\code\gss\inc\cgibind.h	<    CYes		=  1,>
+CYESNO	\code\gss\inc\cgibind.h	<} CYESNO;>
+D16_PACKAGES_DEFINED	inc\dos16.h	<#define D16_PACKAGES_DEFINED    /* Tell package.h not to bother... */>
+D16INFO	inc\dos16.h	<    } D16INFO ;>
+D16misc_AT_compat	inc\dos16.h	<#define D16misc_AT_compat 0x01      /* flag if AT-compatible user architecture */>
+D16misc_DVX	inc\dos16.h	<#define D16misc_DVX               0x80>
+D16misc_extra_mem	inc\dos16.h	<#define D16misc_extra_mem 0x02      /* extra memory just below 16MB in use */>
+D16misc_pluto	inc\dos16.h	<#define D16misc_pluto     0x04      /* set if a plutonium kernel is running */>
+D16MoveStack	inc\dos16.h	<#define D16MoveStack(new_sp, context)   (*_d16info.D16MStkP)(new_sp, context)>
+D16REGS	inc\dos16.h	<    } D16REGS;                  /* general registers, for D16rmInterrupt() */>
+D16rmInterrupt	inc\dos16.h	<#define D16rmInterrupt(intno, inrs, outrs)  (*_d16info.D16rmInP)(intno, inrs, outrs)>
+D16ToProtected	inc\dos16.h	<#define D16ToProtected(pcs, pss, pds, pes)  (*_d16info.D16ToPMP)(pcs, pss, pds, pes)>
+D16ToReal	inc\dos16.h	<#define D16ToReal()                     (*_d16info.D16ToRMP)()>
+data	inc\data.h	<struct data {>
+DATA	inc\data.h	<typedef struct data DATA;>
+DATA_INCLUDED	inc\data.h	<#define DATA_INCLUDED>
+DATAFILE_INCLUDED	inc\datafile.h	<#define DATAFILE_INCLUDED>
+DataFileName	main\datafile.c	<char DataFileName[] = "TMLONG.DAT";>
+DataFileOverwritePrompt	main\cwindows.c	<char * DataFileOverwritePrompt[] = {>
+DataFileSpec	main\datafile.c	<char DataFileSpec[3+64+8+1+3];>
+DATAHDR	inc\datafile.h	<  } DATAHDR;>
+debug_gdt	inc\dos16.h	<#define debug_gdt (0x60/8)  /* scratch desc for debugging */>
+debug_sel	inc\dos16.h	<#define debug_sel 0x60>
+default_char_action	main\winmenu.c	<BOOLEAN default_char_action(unsigned char key)>
+DefaultHdr	main\datafile.c	<DATAHDR DefaultHdr =>
+define_transient_window	main\cwindows.c	<WINDOW * define_transient_window(unsigned char Row, unsigned char Column,>
+DELETE	inc\keys.h	<#define DELETE             127>
+delete_char_from_field	main\winmenu.c	<BOOLEAN delete_char_from_field(BOOLEAN go_left)>
+delete_entire_field	main\winmenu.c	<void delete_entire_field(void)>
+DESCRIPTION_LENGTH	inc\constant.h	<enum { DESCRIPTION_LENGTH = 81 } ;>
+destroy_transient_window	main\cwindows.c	<WINDOW * destroy_transient_window(WINDOW * WindowPtr)>
+DEVICE_INCLUDED	inc\device.h	<#define DEVICE_INCLUDED>
+deviceHandle	main\device.c	<CDVHANDLE deviceHandle(void)>
+display_choice	main\cwindows.c	<static void display_choice(WINDOW * W, OPTION * options,>
+display_cursor_left	main\winmenu.c	<void display_cursor_left(void)>
+display_cursor_right	main\winmenu.c	<void display_cursor_right(void)>
+display_string	main\device.c	<void display_string(char * string, int len, int row, int column, int attrib)>
+DisplayArea	main\device.c	<CRECT DisplayArea;>
+DisplayField	main\winmenu.c	<static void DisplayField(MENU_FIELD * Field, BOOLEAN Hot)>
+DisplayGraphArea	main\plotbox.c	<CRECT DisplayGraphArea;  /* screen graphing window */>
+DKGREY	inc\tutordef.h	<#define DKGREY	   8>
+Done	main\keymenu.c	<static BOOLEAN Done = FALSE;>
+DONOTCARE	inc\tutordef.h	<#define DONOTCARE    0>
+DOPLOT_INCLUDED	inc\doplot.h	<#define DOPLOT_INCLUDED>
+DoPlotSetupMenu	main\plotmenu.c	<int DoPlotSetupMenu(void)>
+DOS16_INCLUDED	inc\dos16.h	<#define DOS16_INCLUDED>
+DOS16LIB_INCLUDED	inc\dos16.h	<#define DOS16LIB_INCLUDED>
+DOS_CRITICAL_ERROR	inc\errors.h	<} DOS_CRITICAL_ERROR;>
+DOS_CRITICAL_ERROR	main\error.c	<} DOS_CRITICAL_ERROR;>
+DOS_int24_info	main\error.c	<unsigned int DOS_int24_info;>
+DOSCRIT_BAD_REQUEST	inc\error.h	<#define  DOSCRIT_BAD_REQUEST              5     /*  5 - bad request structure length */>
+DOSCRIT_BAD_REQUEST	inc\errors.h	<#define  DOSCRIT_BAD_REQUEST              5     /*  5 - bad request structure length */>
+DOSCRIT_DATA_CRC_ERROR	inc\error.h	<#define  DOSCRIT_DATA_CRC_ERROR           4     /*  4 - data error (bad CRC) */>
+DOSCRIT_DATA_CRC_ERROR	inc\errors.h	<#define  DOSCRIT_DATA_CRC_ERROR           4     /*  4 - data error (bad CRC) */>
+DOSCRIT_DRIVE_NOT_READY	inc\error.h	<#define  DOSCRIT_DRIVE_NOT_READY          2     /*  2 - drive not ready */>
+DOSCRIT_DRIVE_NOT_READY	inc\errors.h	<#define  DOSCRIT_DRIVE_NOT_READY          2     /*  2 - drive not ready */>
+DOSCRIT_GENERAL_FAILURE	inc\error.h	<#define  DOSCRIT_GENERAL_FAILURE         12     /* 12 - general failure */>
+DOSCRIT_GENERAL_FAILURE	inc\errors.h	<#define  DOSCRIT_GENERAL_FAILURE         12     /* 12 - general failure */>
+DOSCRIT_NO_PAPER	inc\error.h	<#define  DOSCRIT_NO_PAPER                 9     /*  9 - printer out of paper */>
+DOSCRIT_NO_PAPER	inc\errors.h	<#define  DOSCRIT_NO_PAPER                 9     /*  9 - printer out of paper */>
+DOSCRIT_READ_FAULT	inc\error.h	<#define  DOSCRIT_READ_FAULT              11     /* 11 - read fault */>
+DOSCRIT_READ_FAULT	inc\errors.h	<#define  DOSCRIT_READ_FAULT              11     /* 11 - read fault */>
+DOSCRIT_SECTOR_NOT_FOUND	inc\error.h	<#define  DOSCRIT_SECTOR_NOT_FOUND         8     /*  8 - sector not found */>
+DOSCRIT_SECTOR_NOT_FOUND	inc\errors.h	<#define  DOSCRIT_SECTOR_NOT_FOUND         8     /*  8 - sector not found */>
+DOSCRIT_SEEK_ERROR	inc\error.h	<#define  DOSCRIT_SEEK_ERROR               6     /*  6 - seek error */>
+DOSCRIT_SEEK_ERROR	inc\errors.h	<#define  DOSCRIT_SEEK_ERROR               6     /*  6 - seek error */>
+DOSCRIT_UNKNOWN_COMMAND	inc\error.h	<#define  DOSCRIT_UNKNOWN_COMMAND          3     /*  3 - unknown command */>
+DOSCRIT_UNKNOWN_COMMAND	inc\errors.h	<#define  DOSCRIT_UNKNOWN_COMMAND          3     /*  3 - unknown command */>
+DOSCRIT_UNKNOWN_MEDIA	inc\error.h	<#define  DOSCRIT_UNKNOWN_MEDIA            7     /*  7 - unknown media type */>
+DOSCRIT_UNKNOWN_MEDIA	inc\errors.h	<#define  DOSCRIT_UNKNOWN_MEDIA            7     /*  7 - unknown media type */>
+DOSCRIT_UNKNOWN_UNIT	inc\error.h	<#define  DOSCRIT_UNKNOWN_UNIT             1     /*  1 - unknown unit */>
+DOSCRIT_UNKNOWN_UNIT	inc\errors.h	<#define  DOSCRIT_UNKNOWN_UNIT             1     /*  1 - unknown unit */>
+DOSCRIT_WRITE_FAULT	inc\error.h	<#define  DOSCRIT_WRITE_FAULT             10     /* 10 - write fault */>
+DOSCRIT_WRITE_FAULT	inc\errors.h	<#define  DOSCRIT_WRITE_FAULT             10     /* 10 - write fault */>
+DOSCRIT_WRITE_PROTECT	inc\error.h	<#define  DOSCRIT_WRITE_PROTECT            0     /*  0 - write-protected */>
+DOSCRIT_WRITE_PROTECT	inc\errors.h	<#define  DOSCRIT_WRITE_PROTECT            0     /*  0 - write-protected */>
+DOSFILESIZE	inc\constant.h	<enum { DOSFILESIZE = 12, DOSPATHSIZE = 64 } ;>
+DOSPATHSIZE	inc\constant.h	<enum { DOSFILESIZE = 12, DOSPATHSIZE = 64 } ;>
+DoTimeMenu	main\timemenu.c	<int DoTimeMenu(void)>
+DOUBLE	inc\primtype.h	<typedef double DOUBLE;>
+DRAW_ALL	inc\curvdraw.h	<enum {DRAW_ALL = 1, DRAW_TAGGED_ONLY, DRAW_TAGGED_AS_NORMAL, DRAW_PEAK_LABELS};>
+draw_axis	main\plotbox.c	<static void draw_axis(PLOTBOX *plot, char which_one)>
+draw_axis_legend	main\plotbox.c	<static void draw_axis_legend(PLOTBOX * plot, AXISDATA * axis,>
+draw_menuitem	main\keymenu.c	<void draw_menuitem(KMENUITEM * ThisItem, UCHAR attribute,>
+DRAW_PEAK_LABELS	inc\curvdraw.h	<enum {DRAW_ALL = 1, DRAW_TAGGED_ONLY, DRAW_TAGGED_AS_NORMAL, DRAW_PEAK_LABELS};>
+draw_plotbox	main\plotbox.c	<void draw_plotbox(void)>
+DRAW_TAGGED_AS_NORMAL	inc\curvdraw.h	<enum {DRAW_ALL = 1, DRAW_TAGGED_ONLY, DRAW_TAGGED_AS_NORMAL, DRAW_PEAK_LABELS};>
+DRAW_TAGGED_ONLY	inc\curvdraw.h	<enum {DRAW_ALL = 1, DRAW_TAGGED_ONLY, DRAW_TAGGED_AS_NORMAL, DRAW_PEAK_LABELS};>
+drawPlotboxOutline	main\plotbox.c	<void drawPlotboxOutline(PLOTBOX * plot)>
+DRIVERS_ALREADY_LOADED	inc\display.h	<#define DRIVERS_ALREADY_LOADED  -2977>
+DRIVERS_ALREADY_LOADED	inc\project.h	<#define DRIVERS_ALREADY_LOADED  -2977>
+DumpKeyBuffer	main\userin.c	<int DumpKeyBuffer(unsigned ScanKey)>
+echo	main\display.c	<  CYESNO echo;           /* Request String echo flag */>
+EIGHTHX	inc\tutordef.h	<#define EIGHTHX (Displayout.LastVDCXY.x / 8)>
+EIGHTHY	inc\tutordef.h	<#define EIGHTHY (Displayout.LastVDCXY.y / 8)>
+emit	main\device.c	<void emit(char character, int row, int column, int attrib)>
+EnOverload	inc\dos16.h	<#define EnOverload  0x08         /* Allow overloading */>
+env_sel	inc\dos16.h	<#define env_sel 0x30        /* selector for Environment */>
+env_sel	inc\dos16.h	<#define env_sel __d16_selectors.env         /* selector for Environment */>
+erase_cursor	main\winmenu.c	<void erase_cursor(void)>
+erase_screen_area	main\device.c	<void erase_screen_area(UCHAR row, UCHAR column, UCHAR n_rows, UCHAR n_columns,>
+ERG	inc\plotbox.h	<       JOULE  = 10, ERG          = 11, HZ     = 12,>
+error	main\error.c	<ERROR_CATEGORY error(ERROR_CATEGORY error_number, ... )>
+ERROR_ACCESS_DENIED	inc\error.h	<#define  ERROR_ACCESS_DENIED            307>
+ERROR_ACCESS_DENIED	inc\errors.h	<#define  ERROR_ACCESS_DENIED            307>
+ERROR_ALLOC_MEM	inc\error.h	<#define  ERROR_ALLOC_MEM                  1>
+ERROR_ALLOC_MEM	inc\errors.h	<#define  ERROR_ALLOC_MEM                  1>
+ERROR_BAD_DIRNAME	inc\error.h	<#define  ERROR_BAD_DIRNAME              305>
+ERROR_BAD_DIRNAME	inc\errors.h	<#define  ERROR_BAD_DIRNAME              305>
+ERROR_BAD_DRIVE	inc\error.h	<#define  ERROR_BAD_DRIVE                306>
+ERROR_BAD_DRIVE	inc\errors.h	<#define  ERROR_BAD_DRIVE                306>
+ERROR_BAD_FILENAME	inc\error.h	<#define  ERROR_BAD_FILENAME             304>
+ERROR_BAD_FILENAME	inc\errors.h	<#define  ERROR_BAD_FILENAME             304>
+ERROR_BAD_SECTOR	inc\error.h	<#define  ERROR_BAD_SECTOR               323>
+ERROR_BAD_SECTOR	inc\errors.h	<#define  ERROR_BAD_SECTOR               323>
+ERROR_CATEGORY	inc\primtype.h	<typedef int ERROR_CATEGORY ;  /* for error codes for error reporting */>
+ERROR_CLOSE	inc\error.h	<#define  ERROR_CLOSE                    301>
+ERROR_CLOSE	inc\errors.h	<#define  ERROR_CLOSE                    301>
+ERROR_DEV_CLOSE	inc\error.h	<#define  ERROR_DEV_CLOSE                310>
+ERROR_DEV_CLOSE	inc\errors.h	<#define  ERROR_DEV_CLOSE                310>
+ERROR_DEV_IOCTL	inc\error.h	<#define  ERROR_DEV_IOCTL                400>
+ERROR_DEV_IOCTL	inc\errors.h	<#define  ERROR_DEV_IOCTL                400>
+ERROR_DEV_OPEN	inc\error.h	<#define  ERROR_DEV_OPEN                 309>
+ERROR_DEV_OPEN	inc\errors.h	<#define  ERROR_DEV_OPEN                 309>
+ERROR_DEV_READ	inc\error.h	<#define  ERROR_DEV_READ                 311>
+ERROR_DEV_READ	inc\errors.h	<#define  ERROR_DEV_READ                 311>
+ERROR_DEV_WRITE	inc\error.h	<#define  ERROR_DEV_WRITE                312>
+ERROR_DEV_WRITE	inc\errors.h	<#define  ERROR_DEV_WRITE                312>
+ERROR_DRIVE_NOT_READY	inc\error.h	<#define  ERROR_DRIVE_NOT_READY          320>
+ERROR_DRIVE_NOT_READY	inc\errors.h	<#define  ERROR_DRIVE_NOT_READY          320>
+ERROR_FLOATING_POINT	inc\error.h	<#define  ERROR_FLOATING_POINT             2>
+ERROR_FLOATING_POINT	inc\errors.h	<#define  ERROR_FLOATING_POINT             2>
+ERROR_GENERAL_DISK_FAILURE	inc\error.h	<#define  ERROR_GENERAL_DISK_FAILURE     324>
+ERROR_GENERAL_DISK_FAILURE	inc\errors.h	<#define  ERROR_GENERAL_DISK_FAILURE     324>
+ERROR_GENERIC	inc\error.h	<#define  ERROR_GENERIC                 9999>
+ERROR_GENERIC	inc\errors.h	<#define  ERROR_GENERIC                 9999>
+ERROR_GPIB_NO_DEVICE	inc\errors.h	<#define  ERROR_GPIB_NO_DEVICE           601>
+ERROR_GPIB_OPEN	inc\errors.h	<#define  ERROR_GPIB_OPEN                600>
+ERROR_GPIB_TIMEOUT	inc\errors.h	<#define  ERROR_GPIB_TIMEOUT             602>
+ERROR_INCLUDED	inc\error.h	<#define ERROR_INCLUDED>
+ERROR_NO_PAPER	inc\error.h	<#define  ERROR_NO_PAPER                 410>
+ERROR_NO_PAPER	inc\errors.h	<#define  ERROR_NO_PAPER                 410>
+ERROR_NONE	inc\primtype.h	<enum { ERROR_NONE = 0 } ;     /* zero means no error */>
+ERROR_OPEN	inc\error.h	<#define  ERROR_OPEN                     300>
+ERROR_OPEN	inc\errors.h	<#define  ERROR_OPEN                     300>
+ERROR_READ	inc\error.h	<#define  ERROR_READ                     302>
+ERROR_READ	inc\errors.h	<#define  ERROR_READ                     302>
+ERROR_SECTOR_NOT_FOUND	inc\error.h	<#define  ERROR_SECTOR_NOT_FOUND         322>
+ERROR_SECTOR_NOT_FOUND	inc\errors.h	<#define  ERROR_SECTOR_NOT_FOUND         322>
+ERROR_SEEK	inc\error.h	<#define  ERROR_SEEK                     321>
+ERROR_SEEK	inc\errors.h	<#define  ERROR_SEEK                     321>
+ERROR_SHARING	inc\error.h	<#define  ERROR_SHARING                  308>
+ERROR_SHARING	inc\errors.h	<#define  ERROR_SHARING                  308>
+ERROR_WRITE	inc\error.h	<#define  ERROR_WRITE                    303>
+ERROR_WRITE	inc\errors.h	<#define  ERROR_WRITE                    303>
+ErrorBeep	main\error.c	<void ErrorBeep(void)>
+ErrorBeepToggle	main\error.c	<void ErrorBeepToggle(void)>
+ErrorFileName	main\error.c	<char ErrorFileName[] = "PROJECT.ERR";>
+ErrorFileSpec	main\error.c	<char ErrorFileSpec[3+64+8+1+3];>
+ERRORS_INCLUDED	inc\errors.h	<#define ERRORS_INCLUDED>
+ESCAPE	inc\keys.h	<#define ESCAPE              27>
+EV	inc\plotbox.h	<       EV     =  9,                                 // electron volts>
+extend_string_set	main\cwindows.c	<static char ** extend_string_set(char ** current_set, int * elements)>
+FactorPoint	main\curvdraw.c	<int FactorPoint(float Value, float Factor, float BasePoint,>
+FALSE	inc\primtype.h	<enum { FALSE = 0, TRUE = 1 } ;>
+Far	inc\dos16.h	<#define Far  _far>
+Far	inc\dos16.h	<#define Far  far>
+FAR	inc\primtype.h	<#define FAR     far>
+FarPtr	inc\dos16.h	<#define FarPtr  * _far>
+FarPtr	inc\dos16.h	<#define FarPtr  *>
+FarPtr	inc\dos16.h	<#define FarPtr  far *>
+fatal	main\display.c	<>
+FATLINESLASH	inc\tutordef.h	<#define FATLINESLASH  31>
+FDORNAME	inc\dos16.h	<typedef void FarPtr FDORNAME;>
+field_index	inc\winmenu.h	<enum field_index;>
+field_index	main\plotmenu.c	<enum field_index {FLD_TITLE = 0, FLD_XMIN, FLD_XMAX, FLD_YMIN, FLD_YMAX };>
+field_index	main\timemenu.c	<enum field_index {FLD_TIME = 0 };>
+field_types	inc\winmenu.h	<enum field_types {NO_DATA = 0, STRING_FIELD, FLOAT_FIELD, INT_FIELD};>
+FieldToDisplayString	main\winmenu.c	<static void FieldToDisplayString(MENU_FIELD * Field)>
+file_message_window	main\cwindows.c	<BOOLEAN file_message_window(const char * file_spec, int message_index,>
+FISHSCALES	inc\tutordef.h	<#define FISHSCALES    26>
+FIXED	inc\primtype.h	<typedef  long FIXED;>
+FKey	main\keymenu.c	<KMENU FKey={0, COLORS_MENU, sizeof(FKeyItems) / sizeof(KMENUITEM), FKeyItems};>
+FKEY_ROW_SIZE	main\keymenu.c	<#define FKEY_ROW_SIZE         1>
+FKeyItems	main\keymenu.c	<KMENUITEM FKeyItems[] = {>
+FLD_TIME	main\timemenu.c	<enum field_index {FLD_TIME = 0 };>
+FLD_TITLE	main\plotmenu.c	<enum field_index {FLD_TITLE = 0, FLD_XMIN, FLD_XMAX, FLD_YMIN, FLD_YMAX };>
+FLD_XMAX	main\plotmenu.c	<enum field_index {FLD_TITLE = 0, FLD_XMIN, FLD_XMAX, FLD_YMIN, FLD_YMAX };>
+FLD_XMIN	main\plotmenu.c	<enum field_index {FLD_TITLE = 0, FLD_XMIN, FLD_XMAX, FLD_YMIN, FLD_YMAX };>
+FLD_YMAX	main\plotmenu.c	<enum field_index {FLD_TITLE = 0, FLD_XMIN, FLD_XMAX, FLD_YMIN, FLD_YMAX };>
+FLD_YMIN	main\plotmenu.c	<enum field_index {FLD_TITLE = 0, FLD_XMIN, FLD_XMAX, FLD_YMIN, FLD_YMAX };>
+FLOAT	inc\primtype.h	<typedef float FLOAT;>
+FLOAT_FIELD	inc\winmenu.h	<enum field_types {NO_DATA = 0, STRING_FIELD, FLOAT_FIELD, INT_FIELD};>
+FLOWERPAT	inc\tutordef.h	<#define FLOWERPAT     15>
+FNAME_LENGTH	inc\constant.h	<enum { FNAME_LENGTH = DOSFILESIZE + DOSPATHSIZE + 1 } ;>
+FOREGROUND	main\device.c	<#define  FOREGROUND(x) ((int) (x & 0xF))>
+format_clean_tick_value	main\plotbox.c	<static void format_clean_tick_value(double value, char * string)>
+FP_OFF	inc\dos16.h	<#define FP_OFF(p)   (*(unsigned short FarPtr) &(p))>
+FP_SEG	inc\dos16.h	<#define FP_SEG(p)   (*((unsigned short FarPtr) &(p) + 1))>
+FPTR	inc\dos16.h	<    } FPTR;>
+free	main\malloc16.c	<void free( void * memBlock )>
+FREE_FAR_MEMORY	main\display.c	<#define FREE_FAR_MEMORY(x) farfree (x)>
+FREE_FAR_MEMORY	main\display.c	<#define FREE_FAR_MEMORY(x) hfree (x)>
+FREE_FAR_MEMORY	main\project.c	<#define FREE_FAR_MEMORY(x) farfree (x)>
+FREE_FAR_MEMORY	main\project.c	<#define FREE_FAR_MEMORY(x) hfree (x)>
+freeDataPoints	main\data.c	<ERROR_CATEGORY freeDataPoints(void)>
+FSEC	inc\plotbox.h	<       FSEC   = 25,                                 // femtoseconds>
+FTIDLEN	inc\constant.h	<enum { FTIDLEN = 40 } ;>
+gcursor	main\display.c	<  CCURHANDLE gcursor;    /* Graphics cursor handle */>
+GDT	inc\dos16.h	<    } GDT;>
+gdt_sel	inc\dos16.h	<#define gdt_sel 0x8         /* selector for gdt */>
+gdt_sel	inc\dos16.h	<#define gdt_sel __d16_selectors.gdt         /* selector for gdt */>
+gdti_alias	inc\dos16.h	<#define gdti_alias   0x10       /* in gdti */>
+gdti_block	inc\dos16.h	<#define gdti_block   0x02       /* in gdti */>
+gdti_locked	inc\dos16.h	<#define gdti_locked  0x80       /* in gdti */>
+gdti_owner	inc\dos16.h	<#define gdti_owner   0x01       /* in gdti */>
+gdti_reside	inc\dos16.h	<#define gdti_reside  0x40       /* in gdti */>
+gdti_sel	inc\dos16.h	<#define gdti_sel 0x50       /* selector for gdt auxiliary information segment */>
+gdti_sel	inc\dos16.h	<#define gdti_sel __d16_selectors.gdti       /* sel for gdt info seg */>
+gdti_special	inc\dos16.h	<#define gdti_special 0x20       /* in gdti */>
+GenFakeData	main\data.c	<int GenFakeData(void)>
+get_color_index	main\cwindows.c	<static UCHAR get_color_index(USHORT StringAttr)>
+GET_KEY_AND_SCAN	main\userin.c	<#define  GET_KEY_AND_SCAN        0>
+get_key_input	main\userin.c	<unsigned char get_key_input()>
+get_message_from_file	main\cwindows.c	<BOOLEAN get_message_from_file(WINDOW * WindowPtr, const char * file_spec,>
+GetTextParams	main\device.c	<void GetTextParams(int * height, int * width)>
+GetWinRowCol	main\cwindows.c	<BOOLEAN GetWinRowCol(WINDOW * W, int *Row, int *Col)>
+GMODE	inc\display.h	<#define GMODE 1>
+GMODE	inc\project.h	<#define GMODE 1>
+GREEN	inc\tutordef.h	<#define GREEN	   3>
+grid_frame	main\display.c	<void grid_frame(void)>
+gss_position	main\plotbox.c	<CXY gss_position(PLOTBOX *plot, float xvalue, float yvalue, float zvalue)>
+gssPlotPosition	main\plotbox.c	<static CXY gssPlotPosition(PLOTBOX * plotbox, int maxMins)>
+GssPosX	main\plotbox.c	<int GssPosX(PLOTBOX * ppbox, float xvalue, int XOffset)>
+GssPosY	main\plotbox.c	<int GssPosY(PLOTBOX * ppbox, float yvalue, int YOffset)>
+h_align	main\display.c	<  CHORALIGN far h_align; /* Horizontal alignment */>
+h_display	main\display.c	<CDVHANDLE h_display;      /* The DISPLAY device handle */>
+h_mouse	main\display.c	<CDVHANDLE h_mouse;      /* The MOUSE device handle */>
+HADERROR	inc\tutordef.h	<#define HADERROR    -1>
+HALF_X	inc\tutordef.h	<#define HALF_X Displayout.LastVDCXY.x / 2>
+HALF_Y	inc\tutordef.h	<#define HALF_Y Displayout.LastVDCXY.y / 2>
+HIDDENLINE_CURVES	inc\plotbox.h	<#define HIDDENLINE_CURVES 1>
+HIGHLIGHT_COLOR	inc\colors.h	<  {REGULAR_COLOR=0, REVERSE_COLOR, HIGHLIGHT_COLOR, SHADED_COLOR, MAX_COLOR};>
+highlight_menuitem	main\keymenu.c	<void highlight_menuitem(char index)>
+HOLLOW	inc\tutordef.h	<#define HOLLOW	     0>
+huge	inc\dos16.h	< #define huge far>
+huge	inc\dos16.h	<#define huge far>
+HugePtr	inc\dos16.h	<#define HugePtr  * _huge>
+HugePtr	inc\dos16.h	<#define HugePtr  *>
+HugePtr	inc\dos16.h	<#define HugePtr  huge *>
+HWFONT	inc\tutordef.h	<#define HWFONT	   1>
+HZ	inc\plotbox.h	<       JOULE  = 10, ERG          = 11, HZ     = 12,>
+i	main\display.c	<  int  i;                /* Loop control variable */>
+icount	main\display.c	<  int  icount;           /* Number of available line widths */>
+IDT	inc\dos16.h	<    } IDT;>
+idt_sel	inc\dos16.h	<#define idt_sel 0x10        /* selector for idt */>
+idt_sel	inc\dos16.h	<#define idt_sel __d16_selectors.idt         /* selector for idt */>
+in_display	main\display.c	<CDVOPEN in_display = {>
+in_mouse	main\display.c	<CDVOPEN in_mouse = {>
+INDEX_COLOR_SET	main\cwindows.c	<} INDEX_COLOR_SET;>
+init_error_file	main\error.c	<void init_error_file(char * path)>
+initAxisToOriginal	main\plotbox.c	<void initAxisToOriginal(AXISDATA * axis)>
+InitializePlot	main\doplot.c	<void InitializePlot(CRECT * GraphArea)>
+InitTextCursors	main\winmenu.c	<void InitTextCursors(void)>
+InitTextParams	main\device.c	<void InitTextParams(void)>
+insert_char_into_field	main\winmenu.c	<BOOLEAN insert_char_into_field(unsigned char key)>
+InsertTextCursorData	main\winmenu.c	<static unsigned char InsertTextCursorData[] =>
+INSUFFICIENT_MEMORY	inc\display.h	<#define INSUFFICIENT_MEMORY -1>
+INSUFFICIENT_MEMORY	inc\project.h	<#define INSUFFICIENT_MEMORY -1>
+INT_FIELD	inc\winmenu.h	<enum field_types {NO_DATA = 0, STRING_FIELD, FLOAT_FIELD, INT_FIELD};>
+interior	main\display.c	<  CINTERIORFILL interior;  /* Fill interior style */>
+INTVECT	inc\dos16.h	<    } INTVECT;>
+INVERSLASH	inc\tutordef.h	<#define INVERSLASH     9>
+is_code	inc\dos16.h	<#define is_code(a)      (((a) & 0x18) == 0x18)>
+is_data	inc\dos16.h	<#define is_data(a)      (((a) & 0x18) == 0x10)>
+is_present	inc\dos16.h	<#define is_present(a)  (((a) & Present) != 0)>
+is_system	inc\dos16.h	<#define is_system(a)    (((a) & 0x10) == 0)>
+itemp1	main\display.c	<  int  itemp1;           /* Place holder variable */>
+itemp2	main\display.c	<  int  itemp2;           /* Place holder variable */>
+itemp3	main\display.c	<  int  itemp3;           /* Place holder variable */>
+j	main\display.c	<  int  j;                /* Array index variable */>
+JOULE	inc\plotbox.h	<       JOULE  = 10, ERG          = 11, HZ     = 12,>
+JUSTONECHAR	inc\tutordef.h	<#define JUSTONECHAR  1>
+JUSTTWOCHARS	inc\tutordef.h	<#define JUSTTWOCHARS 2>
+kernel_data_sel	inc\dos16.h	<#define kernel_data_sel 0x20    /* selector for kernel data */>
+kernel_data_sel	inc\dos16.h	<#define kernel_data_sel __d16_selectors.kerneld /* selector for kernel data */>
+kernel_sel	inc\dos16.h	<#define kernel_sel 0x18     /* selector for run time kernel code */>
+kernel_sel	inc\dos16.h	<#define kernel_sel __d16_selectors.kernel   /* selector for run time kernel code */>
+kernelx_sel	inc\dos16.h	<#define kernelx_sel 0x70    /* kernel code in extended memory */>
+kernelx_sel	inc\dos16.h	<#define kernelx_sel __d16_selectors.kernelx /* kernel code in extended memory */>
+KEY_	inc\keys.h	<#define KEY_>
+KEY_ALT_A	inc\keys.h	<#define KEY_ALT_A          193   /* !!!!!!!!!!!!!!!!!!! */>
+KEY_ALT_B	inc\keys.h	<#define KEY_ALT_B          194>
+KEY_ALT_C	inc\keys.h	<#define KEY_ALT_C          195>
+KEY_ALT_D	inc\keys.h	<#define KEY_ALT_D          196>
+KEY_ALT_E	inc\keys.h	<#define KEY_ALT_E          197>
+KEY_ALT_F	inc\keys.h	<#define KEY_ALT_F          198>
+KEY_ALT_G	inc\keys.h	<#define KEY_ALT_G          199>
+KEY_ALT_H	inc\keys.h	<#define KEY_ALT_H          200>
+KEY_ALT_I	inc\keys.h	<#define KEY_ALT_I          201>
+KEY_ALT_J	inc\keys.h	<#define KEY_ALT_J          202>
+KEY_ALT_K	inc\keys.h	<#define KEY_ALT_K          203>
+KEY_ALT_L	inc\keys.h	<#define KEY_ALT_L          204>
+KEY_ALT_M	inc\keys.h	<#define KEY_ALT_M          205>
+KEY_ALT_N	inc\keys.h	<#define KEY_ALT_N          206>
+KEY_ALT_O	inc\keys.h	<#define KEY_ALT_O          207>
+KEY_ALT_P	inc\keys.h	<#define KEY_ALT_P          208>
+KEY_ALT_Q	inc\keys.h	<#define KEY_ALT_Q          209>
+KEY_ALT_R	inc\keys.h	<#define KEY_ALT_R          210>
+KEY_ALT_S	inc\keys.h	<#define KEY_ALT_S          211>
+KEY_ALT_T	inc\keys.h	<#define KEY_ALT_T          212>
+KEY_ALT_U	inc\keys.h	<#define KEY_ALT_U          213>
+KEY_ALT_V	inc\keys.h	<#define KEY_ALT_V          214>
+KEY_ALT_W	inc\keys.h	<#define KEY_ALT_W          215>
+KEY_ALT_X	inc\keys.h	<#define KEY_ALT_X          216>
+KEY_ALT_Y	inc\keys.h	<#define KEY_ALT_Y          217>
+KEY_ALT_Z	inc\keys.h	<#define KEY_ALT_Z          218>
+KEY_BACK_TAB	inc\keys.h	<#define KEY_BACK_TAB       131>
+KEY_BACKSPACE	inc\keys.h	<#define KEY_BACKSPACE      132>
+KEY_CTRL_A	inc\keys.h	<#define KEY_CTRL_A 1>
+KEY_CTRL_B	inc\keys.h	<#define KEY_CTRL_B 2>
+KEY_CTRL_C	inc\keys.h	<#define KEY_CTRL_C 3  // special break key>
+KEY_CTRL_D	inc\keys.h	<#define KEY_CTRL_D 4>
+KEY_CTRL_E	inc\keys.h	<#define KEY_CTRL_E 5>
+KEY_CTRL_F	inc\keys.h	<#define KEY_CTRL_F 6>
+KEY_CTRL_G	inc\keys.h	<#define KEY_CTRL_G 7>
+KEY_CTRL_H	inc\keys.h	<#define KEY_CTRL_H 8>
+KEY_CTRL_I	inc\keys.h	<#define KEY_CTRL_I 9>
+KEY_CTRL_J	inc\keys.h	<#define KEY_CTRL_J 10>
+KEY_CTRL_K	inc\keys.h	<#define KEY_CTRL_K 11>
+KEY_CTRL_L	inc\keys.h	<#define KEY_CTRL_L 12>
+KEY_CTRL_M	inc\keys.h	<#define KEY_CTRL_M 13>
+KEY_CTRL_N	inc\keys.h	<#define KEY_CTRL_N 14>
+KEY_CTRL_O	inc\keys.h	<#define KEY_CTRL_O 15>
+KEY_CTRL_P	inc\keys.h	<#define KEY_CTRL_P 16>
+KEY_CTRL_Q	inc\keys.h	<#define KEY_CTRL_Q 17>
+KEY_CTRL_R	inc\keys.h	<#define KEY_CTRL_R 18>
+KEY_CTRL_S	inc\keys.h	<#define KEY_CTRL_S 19>
+KEY_CTRL_T	inc\keys.h	<#define KEY_CTRL_T 20>
+KEY_CTRL_U	inc\keys.h	<#define KEY_CTRL_U 21>
+KEY_CTRL_V	inc\keys.h	<#define KEY_CTRL_V 22>
+KEY_CTRL_W	inc\keys.h	<#define KEY_CTRL_W 23>
+KEY_CTRL_X	inc\keys.h	<#define KEY_CTRL_X 24>
+KEY_CTRL_Y	inc\keys.h	<#define KEY_CTRL_Y 25>
+KEY_CTRL_Z	inc\keys.h	<#define KEY_CTRL_Z 26>
+KEY_DELETE	inc\keys.h	<#define KEY_DELETE         133>
+KEY_DELETE_FAR	inc\keys.h	<#define KEY_DELETE_FAR     134>
+KEY_DOWN	inc\keys.h	<#define KEY_DOWN           138>
+KEY_DOWN_FAR	inc\keys.h	<#define KEY_DOWN_FAR       139>
+KEY_END	inc\keys.h	<#define KEY_END            146>
+KEY_END_FAR	inc\keys.h	<#define KEY_END_FAR        147>
+KEY_ENTER	inc\keys.h	<#define KEY_ENTER          128>
+KEY_ESCAPE	inc\keys.h	<#define KEY_ESCAPE         129>
+KEY_EXCEPTION	inc\keys.h	<#define KEY_EXCEPTION      255>
+KEY_F1	inc\keys.h	<#define KEY_F1             154>
+KEY_F10	inc\keys.h	<#define KEY_F10            163>
+KEY_F11	inc\keys.h	<#define KEY_F11            164>
+KEY_F12	inc\keys.h	<#define KEY_F12            165>
+KEY_F13	inc\keys.h	<#define KEY_F13            166>
+KEY_F14	inc\keys.h	<#define KEY_F14            167>
+KEY_F15	inc\keys.h	<#define KEY_F15            168>
+KEY_F16	inc\keys.h	<#define KEY_F16            169>
+KEY_F17	inc\keys.h	<#define KEY_F17            170>
+KEY_F18	inc\keys.h	<#define KEY_F18            171>
+KEY_F19	inc\keys.h	<#define KEY_F19            172>
+KEY_F2	inc\keys.h	<#define KEY_F2             155>
+KEY_F20	inc\keys.h	<#define KEY_F20            173>
+KEY_F21	inc\keys.h	<#define KEY_F21            174>
+KEY_F22	inc\keys.h	<#define KEY_F22            175>
+KEY_F23	inc\keys.h	<#define KEY_F23            176>
+KEY_F24	inc\keys.h	<#define KEY_F24            177>
+KEY_F25	inc\keys.h	<#define KEY_F25            178>
+KEY_F26	inc\keys.h	<#define KEY_F26            179>
+KEY_F27	inc\keys.h	<#define KEY_F27            180>
+KEY_F28	inc\keys.h	<#define KEY_F28            181>
+KEY_F29	inc\keys.h	<#define KEY_F29            182>
+KEY_F3	inc\keys.h	<#define KEY_F3             156>
+KEY_F30	inc\keys.h	<#define KEY_F30            183>
+KEY_F31	inc\keys.h	<#define KEY_F31            184>
+KEY_F32	inc\keys.h	<#define KEY_F32            185>
+KEY_F33	inc\keys.h	<#define KEY_F33            186>
+KEY_F34	inc\keys.h	<#define KEY_F34            187>
+KEY_F35	inc\keys.h	<#define KEY_F35            188>
+KEY_F36	inc\keys.h	<#define KEY_F36            189>
+KEY_F37	inc\keys.h	<#define KEY_F37            190>
+KEY_F38	inc\keys.h	<#define KEY_F38            191>
+KEY_F39	inc\keys.h	<#define KEY_F39            192>
+KEY_F4	inc\keys.h	<#define KEY_F4             157>
+KEY_F40	inc\keys.h	<#define KEY_F40            193   /* !!! */>
+KEY_F5	inc\keys.h	<#define KEY_F5             158>
+KEY_F6	inc\keys.h	<#define KEY_F6             159>
+KEY_F7	inc\keys.h	<#define KEY_F7             160>
+KEY_F8	inc\keys.h	<#define KEY_F8             161>
+KEY_F9	inc\keys.h	<#define KEY_F9             162>
+KEY_HOME	inc\keys.h	<#define KEY_HOME           144>
+KEY_HOME_FAR	inc\keys.h	<#define KEY_HOME_FAR       145>
+KEY_INSERT	inc\keys.h	<#define KEY_INSERT         135>
+KEY_LEFT	inc\keys.h	<#define KEY_LEFT           140>
+KEY_LEFT_FAR	inc\keys.h	<#define KEY_LEFT_FAR       141>
+key_map_pair	main\userin.c	<struct key_map_pair {>
+KEY_MINUS	inc\keys.h	<#define KEY_MINUS          153>
+KEY_PG_DN	inc\keys.h	<#define KEY_PG_DN          150>
+KEY_PG_DN_FAR	inc\keys.h	<#define KEY_PG_DN_FAR      151>
+KEY_PG_UP	inc\keys.h	<#define KEY_PG_UP          148>
+KEY_PG_UP_FAR	inc\keys.h	<#define KEY_PG_UP_FAR      149>
+KEY_PLUS	inc\keys.h	<#define KEY_PLUS           152>
+KEY_RIGHT	inc\keys.h	<#define KEY_RIGHT          142>
+KEY_RIGHT_FAR	inc\keys.h	<#define KEY_RIGHT_FAR      143>
+KEY_TAB	inc\keys.h	<#define KEY_TAB            130>
+KEY_UP	inc\keys.h	<#define KEY_UP             136>
+KEY_UP_FAR	inc\keys.h	<#define KEY_UP_FAR         137>
+keyboardEscape	main\userin.c	<BOOLEAN keyboardEscape( void )>
+KEYMEMU_INCLUDED	inc\keymenu.h	<#define KEYMEMU_INCLUDED>
+KEYS_HIGH_BIT	inc\keys.h	<#define KEYS_HIGH_BIT      0x80>
+KEYS_INCLUDED	inc\keys.h	<#define KEYS_INCLUDED>
+KMENU	inc\keymenu.h	<} KMENU;>
+KMENUCONTEXT	inc\keymenu.h	<} KMENUCONTEXT;>
+KMENUITEM	inc\keymenu.h	<} KMENUITEM;>
+LABEL	inc\winmenu.h	<#define LABEL(x) x , sizeof(x)>
+LastTextCursorLoc	main\winmenu.c	<static CXY LastTextCursorLoc;>
+LEFTSHIFT	inc\constant.h	<enum { RIGHTSHIFT = 1, LEFTSHIFT = 2, CNTRL_FLAG = 4, ALT_FLAG = 8 } ;>
+LEFTSIDE	inc\plotbox.h	<typedef enum { NOSIDE, RIGHTSIDE, LEFTSIDE } ZPosition ;>
+LEGEND_SIZE	inc\plotbox.h	<enum { LEGEND_SIZE = 30 } ;>
+LI_PGMFLAG_NORMAL	inc\dos16.h	<#define LI_PGMFLAG_NORMAL   0x0000>
+LI_PGMFLAG_PACKAGE	inc\dos16.h	<#define LI_PGMFLAG_PACKAGE  0x0002>
+LIGHTEDBEADS	inc\tutordef.h	<#define LIGHTEDBEADS  28>
+LIGHTSPEED	inc\constant.h	<#define LIGHTSPEED   2.99792458e8 /* speed of light in meters/sec */>
+LIMITLTYPE	inc\tutordef.h	<#define LIMITLTYPE   7>
+load_configuration	main\display.c	<int load_configuration ()>
+load_configuration	main\project.c	<int load_configuration ()>
+load_data_file	main\datafile.c	<ERROR_CATEGORY load_data_file(char * pathbase)>
+load_drivers	main\display.c	<int load_drivers (void)>
+load_drivers	main\project.c	<int load_drivers (void)>
+LOCATION_CURSOR_PAD	inc\cursor.h	<#define LOCATION_CURSOR_PAD 0xE0>
+locator	main\display.c	<  CREQLOCATOR locator;   /* Request locator structure */>
+LONG	inc\primtype.h	<typedef long LONG;>
+LTBLUE	inc\tutordef.h	<#define LTBLUE	  12>
+LTCYAN	inc\tutordef.h	<#define LTCYAN	  14>
+LTGREEN	inc\tutordef.h	<#define LTGREEN   11>
+LTGREY	inc\tutordef.h	<#define LTGREY	   9>
+LTMAGENTA	inc\tutordef.h	<#define LTMAGENTA 15>
+LTRED	inc\tutordef.h	<#define LTRED	  10>
+MAGENTA	inc\tutordef.h	<#define MAGENTA    7>
+main	main\display.c	<void main(void)>
+main	main\project.c	<int main(int argc, char * argv[])>
+make_fdorname	inc\dos16.h	<#define make_fdorname(h, l)  ((FDORNAME) (((long)(h) << 16) | (l)) )>
+make_file_spec	main\datafile.c	<void make_file_spec(char * pathbase)>
+makelong	inc\dos16.h	<#define makelong(h, l)  ( ((long)(h) << 16) | (l) )>
+makeptr	inc\dos16.h	<#define makeptr(s, o)  ( (void FarPtr)((long)(s) << 16 | (unsigned)(o)) )>
+malloc	main\malloc16.c	<void * malloc( unsigned size )>
+manage_dynamic_window	main\cwindows.c	<void manage_dynamic_window(WINDOW * W, unsigned char row_offset,>
+manage_menu	main\winmenu.c	<static void manage_menu(WMENU * Menu)>
+manage_window	main\cwindows.c	<static void manage_window(WINDOW * W, UCHAR row_offset,>
+ManageField	main\winmenu.c	<void ManageField(MENU_FIELD * Field, int key)>
+markers	main\display.c	<CXY markers[] = {>
+MARKSIZE	inc\tutordef.h	<#define MARKSIZE     6>
+MAX_CHOICES	main\cwindows.c	<#define MAX_CHOICES 10>
+MAX_COLOR	inc\colors.h	<  {REGULAR_COLOR=0, REVERSE_COLOR, HIGHLIGHT_COLOR, SHADED_COLOR, MAX_COLOR};>
+MAX_DOUBLE_DIFF	inc\constant.h	<#define MAX_DOUBLE_DIFF (1e-9)  /* 1e-9, for double float comparisons */>
+MAX_FLOAT_DIFF	inc\constant.h	<#define MAX_FLOAT_DIFF  (1e-9)  /* 1e-9, for single float comparisons */>
+MAX_FONTS	inc\tutordef.h	<#define MAX_FONTS Displayout.TextFonts>
+MAX_LABELLED_CURVES	inc\plotbox.h	<#define MAX_LABELLED_CURVES 10>
+MAX_MESSAGE_ROWS	inc\error.h	<#define MAX_MESSAGE_ROWS   14>
+MAX_PASSUP_INDEX	inc\dos16.h	<#define MAX_PASSUP_INDEX 8  /* number of passup interrupts supported */>
+MAX_PROCESS_PER_PGM	inc\dos16.h	<#define MAX_PROCESS_PER_PGM 16      /* (Packages + App) per SPLICED EXE <= 16 */>
+MAX_X	inc\tutordef.h	<#define MAX_X Displayout.LastVDCXY.x>
+MAX_X	main\pause.c	<#define MAX_X Displayout.LastVDCXY.x>
+MAX_Y	inc\tutordef.h	<#define MAX_Y Displayout.LastVDCXY.y>
+MAXDOUBLE	inc\constant.h	<#define MAXDOUBLE    1.7E154>
+MAXFLOAT	inc\constant.h	<#define MAXFLOAT     3.4E19>
+MAXHGT	inc\tutordef.h	<#define MAXHGT	 32767>
+MAXMAXMAX	main\plotbox.c	<       MAXMAXMIN, MAXMAXMAX };>
+MAXMAXMIN	main\plotbox.c	<       MAXMAXMIN, MAXMAXMAX };>
+MAXMINMAX	main\plotbox.c	<enum { MINMINMIN, MINMINMAX, MINMAXMIN, MINMAXMAX, MAXMINMIN, MAXMINMAX,>
+MAXMINMIN	main\plotbox.c	<enum { MINMINMIN, MINMINMAX, MINMAXMIN, MINMAXMAX, MAXMINMIN, MAXMINMAX,>
+MCROSSPAT	inc\tutordef.h	<#define MCROSSPAT      5>
+MEDIUMCROSS	inc\tutordef.h	<#define MEDIUMCROSS 5>
+MEDIUMLINE	inc\tutordef.h	<#define MEDIUMLINE    21>
+MEDIUMSLASH	inc\tutordef.h	<#define MEDIUMSLASH 2>
+mem0_sel	inc\dos16.h	<#define mem0_sel 0x38       /* selector for physical memory 0 */>
+mem0_sel	inc\dos16.h	<#define mem0_sel __d16_selectors.mem0       /* selector for physical memory 0 */>
+MemInit00	inc\dos16.h	<#define MemInit00 0x20      /* set newly allocated memory to 0x00 */>
+MemInitFF	inc\dos16.h	<#define MemInitFF 0x40      /* set newly allocated memory to 0xFF */>
+MEMORY_TOO_SMALL_FOR_GSSCGI	inc\display.h	<#define MEMORY_TOO_SMALL_FOR_GSSCGI -3034>
+MEMORY_TOO_SMALL_FOR_GSSCGI	inc\project.h	<#define MEMORY_TOO_SMALL_FOR_GSSCGI -3034>
+MENU_	inc\keymenu.h	<#define     MENU_                      0x02>
+menu_context	inc\keymenu.h	<typedef struct menu_context>
+MENU_FIELD	inc\winmenu.h	<  } MENU_FIELD;>
+MENU_IS_SUBMENU	inc\keymenu.h	<#define     MENU_IS_SUBMENU            0x01>
+menudef	inc\keymenu.h	<typedef struct menudef>
+MenuFocus	main\keymenu.c	<KMENUCONTEXT MenuFocus;>
+MENUITEM_	inc\keymenu.h	<#define     MENUITEM_                  0x08>
+MENUITEM_CALLS_FORM	inc\keymenu.h	<#define     MENUITEM_CALLS_FORM        0x10>
+MENUITEM_CALLS_FORMTABLE	inc\keymenu.h	<#define     MENUITEM_CALLS_FORMTABLE   0x20>
+MENUITEM_CALLS_FUNCTION	inc\keymenu.h	<#define     MENUITEM_CALLS_FUNCTION    0x02>
+MENUITEM_CALLS_SUBMENU	inc\keymenu.h	<#define     MENUITEM_CALLS_SUBMENU     0x01>
+MENUITEM_INACTIVE	inc\keymenu.h	<#define     MENUITEM_INACTIVE          0x04>
+menuitemdef	inc\keymenu.h	<typedef struct menuitemdef>
+MenuPlot	main\keymenu.c	<int MenuPlot(void)>
+message_pause	main\cwindows.c	<void message_pause(void)>
+message_window	main\cwindows.c	<BOOLEAN message_window(char ** message_text, unsigned char color_set_index)>
+METER	inc\plotbox.h	<       METER  =  6, WAVENUMBER   =  7,>
+MForceExt	inc\dos16.h	<#define MForceExt 2             /* force extended */>
+MForceLow	inc\dos16.h	<#define MForceLow 3             /* force conventional */>
+MHO	inc\plotbox.h	<       AMP  = 30, VOLT = 31, OHM = 32, COULOMB = 33, MHO = 34,>
+MILKBOTTLES	inc\tutordef.h	<#define MILKBOTTLES   25>
+MIN_X	inc\tutordef.h	<#define MIN_X 0>
+MIN_Y	inc\tutordef.h	<#define MIN_Y 0>
+MINDOUBLE	inc\constant.h	<#define MINDOUBLE    -1.7E154>
+MINFLOAT	inc\constant.h	<#define MINFLOAT     -3.4E19>
+MINHGT	inc\tutordef.h	<#define MINHGT	     0>
+MINLIMIT	inc\tutordef.h	<#define MINLIMIT     1>
+MINMAXMAX	main\plotbox.c	<enum { MINMINMIN, MINMINMAX, MINMAXMIN, MINMAXMAX, MAXMINMIN, MAXMINMAX,>
+MINMAXMIN	main\plotbox.c	<enum { MINMINMIN, MINMINMAX, MINMAXMIN, MINMAXMAX, MAXMINMIN, MAXMINMAX,>
+MINMINMAX	main\plotbox.c	<enum { MINMINMIN, MINMINMAX, MINMAXMIN, MINMAXMAX, MAXMINMIN, MAXMINMAX,>
+MINMINMIN	main\plotbox.c	<enum { MINMINMIN, MINMINMAX, MINMAXMIN, MINMAXMAX, MAXMINMIN, MAXMINMAX,>
+MM	inc\plotbox.h	<       MM     =  4,                                 // millimeters>
+More	inc\tutordef.h	<#define More	   0>
+mouse_stat	main\display.c	<  int  mouse_stat;       /* Mouse Open Workstation status */>
+movePointByDCOffset	main\device.c	<CXY movePointByDCOffset(CXY point, CDCX xDCOffset, CDCY yDCOffset)>
+MPreferExt	inc\dos16.h	<#define MPreferExt 0            /* prefer, but not force, extended */>
+MPreferLow	inc\dos16.h	<#define MPreferLow 1            /* prefer, but not force, conventional memory */>
+MRANDOMDOT	inc\tutordef.h	<#define MRANDOMDOT    17>
+MSEC	inc\plotbox.h	<       MSEC   = 21,                                 // millisecond>
+MSLASHPAT	inc\tutordef.h	<#define MSLASHPAT      2>
+MTransparent	inc\dos16.h	<#define MTransparent 4          /* force conventional, allocate selectors for */>
+MTransStack	inc\dos16.h	<#define MTransStack 5           /* transparent, but aligned for use as stack */>
+NARROWCROSS	inc\tutordef.h	<#define NARROWCROSS 4>
+NARROWLINE	inc\tutordef.h	<#define NARROWLINE    20>
+NARROWSLASH	inc\tutordef.h	<#define NARROWSLASH 1>
+NCROSSPAT	inc\tutordef.h	<#define NCROSSPAT      4>
+ndxcolorset	main\cwindows.c	<typedef struct ndxcolorset {>
+Near	inc\dos16.h	<#define Near  near>
+Near	inc\dos16.h	<#define Near>
+NEAR	inc\primtype.h	<#define NEAR    near>
+NearPtr	inc\dos16.h	<#define NearPtr  * _near>
+NearPtr	inc\dos16.h	<#define NearPtr  near *>
+newfrm	main\display.c	<void newfrm (void)>
+next_field	main\winmenu.c	<static void next_field(WMENU * Menu)>
+next_horiz_field	main\winmenu.c	<static void next_horiz_field(WMENU * Menu)>
+next_vert_field	main\winmenu.c	<static void next_vert_field(WMENU * Menu)>
+nicenum	main\plotbox.c	<static double nicenum(double x)>
+NIL	inc\primtype.h	<#define NIL 0L>
+NM	inc\plotbox.h	<enum { COUNTS =  0, ANGSTROM     =  1, NM     =  2, // nanometers>
+NO	inc\keys.h	<#define NO                   0>
+NO_DATA	inc\winmenu.h	<enum field_types {NO_DATA = 0, STRING_FIELD, FLOAT_FIELD, INT_FIELD};>
+NoAsciiKeyMap	main\userin.c	<static struct key_map_pair  NoAsciiKeyMap[] = {>
+NODPMI	inc\dos16.h	<#define NODPMI 1>
+NOERROR	inc\tutordef.h	<#define NOERROR      0>
+NOSIDE	inc\plotbox.h	<typedef enum { NOSIDE, RIGHTSIDE, LEFTSIDE } ZPosition ;>
+NOT	inc\primtype.h	<#define NOT !>
+NOTPRESSED	inc\tutordef.h	<#define NOTPRESSED   0>
+NoVCPI	inc\dos16.h	<#define NoVCPI  0x02             /* DIsable VCPI initialization */>
+NSEC	inc\plotbox.h	<       NSEC   = 23,                                 // nanoseconds>
+NSLASHPAT	inc\tutordef.h	<#define NSLASHPAT      1>
+NULL_PTR	inc\dos16.h	<#define NULL_PTR     ((void *) 0)>
+NULL_SEGREG	inc\dos16.h	<#define NULL_SEGREG  0>
+NVERTSTRIPE	inc\tutordef.h	<#define NVERTSTRIPE    8>
+offer_choices_in_window	main\cwindows.c	<static int offer_choices_in_window(WINDOW * W, char ** choice_strings,>
+OHM	inc\plotbox.h	<       AMP  = 30, VOLT = 31, OHM = 32, COULOMB = 33, MHO = 34,>
+ONELINE	inc\tutordef.h	<#define ONELINE     80>
+OPAQUE	inc\tutordef.h	<#define OPAQUE	    0>
+open_window	main\cwindows.c	<void open_window(WINDOW * W, unsigned char color_set_index)>
+openAndClearScreen	main\device.c	<int openAndClearScreen(CRECT *GraphArea)>
+OPTION	main\cwindows.c	<} OPTION;>
+OutdispStr	main\winmenu.c	<static void OutdispStr(MENU_FIELD * Field, enum colordex Color)>
+output_title	main\display.c	<>
+OutputMessage	main\keymenu.c	<char *OutputMessage[] =  { " ",>
+OVERLAPPED_CURVES	inc\plotbox.h	<#define OVERLAPPED_CURVES 0>
+OverwriteTextCursorData	main\winmenu.c	<static unsigned char OverwriteTextCursorData[] =>
+package	inc\dos16.h	<typedef struct package>
+PACKAGE	inc\dos16.h	<} PACKAGE;>
+PackageMajRev	inc\dos16.h	<#define PackageMajRev(package) package->major_rev>
+PackageMinRev	inc\dos16.h	<#define PackageMinRev(package) package->minor_rev>
+PackageNext	inc\dos16.h	<#define PackageNext(package) package->next_package>
+PackageRev	inc\dos16.h	<#define PackageRev(package) package->major_rev * 100 + package->minor_rev>
+PackageTitle	inc\dos16.h	<#define PackageTitle(package) package->package_title>
+PARALLELOGRAM	inc\tutordef.h	<#define PARALLELOGRAM 27>
+PASSUP_INDEX_INC	inc\dos16.h	<#define PASSUP_INDEX_INC 4  /* sizeof passup element */>
+pause	main\pause.c	<void pause(int Hold)>
+PCHAR	inc\primtype.h	<typedef CHAR far *PCHAR;>
+PDOUBLE	inc\primtype.h	<typedef DOUBLE far *PDOUBLE;>
+percent	main\plotbox.c	<int percent(int full, int percentage)>
+PFLOAT	inc\primtype.h	<typedef FLOAT far *PFLOAT;>
+PGM_LOAD_INFO	inc\dos16.h	<} PGM_LOAD_INFO;>
+PI	inc\constant.h	<#define  PI  3.1415926535>
+PLANCK	inc\constant.h	<#define PLANCK       6.626176e-34 /* Planck's constant in Joules * seconds */>
+PLONG	inc\primtype.h	<typedef LONG far *PLONG;>
+Plot	main\plotbox.c	<PLOTBOX Plot;>
+plot_box	inc\plotbox.h	<struct plot_box>
+plot_curves	main\curvdraw.c	<BOOLEAN plot_curves(void)>
+PLOTBOX	inc\primtype.h	<typedef struct plot_box PLOTBOX ;>
+PLOTBOX_INCLUDED	inc\plotbox.h	<#define PLOTBOX_INCLUDED>
+plotboxOutline	main\plotbox.c	<void plotboxOutline(PLOTBOX * plot, CXY outline[], short * pointCount,>
+plotDataToDevice	main\device.c	<ERROR_CATEGORY plotDataToDevice(char * deviceName)>
+plotDevParams	main\device.c	<static CDVCAPABILITY const * plotDevParams = & screen;>
+plotlines	main\curvdraw.c	<CXY far *plotlines = 0;>
+PLOTMENU_INCLUDED	inc\plotmenu.h	<#define PLOTMENU_INCLUDED>
+PlotScreen	main\device.c	<ERROR_CATEGORY PlotScreen(void)>
+plotter	main\device.c	<static CDVCAPABILITY plotter;         >
+plotter_handle	main\device.c	<static CDVHANDLE plotter_handle;  >
+plotter_setup	main\device.c	<static CDVOPEN plotter_setup = {>
+PlotterChoices	main\keymenu.c	<char *PlotterChoices[] = { "Printer", "Plotter", "Screen", NULL };>
+PlotTitle	main\plotmenu.c	<char  PlotTitle[20];>
+PlotXMax	main\plotmenu.c	<int   PlotXMax;>
+PlotXMin	main\plotmenu.c	<int   PlotXMin;>
+PlotYMax	main\plotmenu.c	<float PlotYMax;>
+PlotYMin	main\plotmenu.c	<float PlotYMin;>
+PLTSETUP_INCLUDED	inc\pltsetup.h	<#define PLTSETUP_INCLUDED>
+POLY	inc\tutordef.h	<#define POLY	   1>
+polyxy	main\display.c	<CXY polyxy[] = {>
+PopupChoiceCount	main\cwindows.c	<static int PopupChoiceCount = 0;>
+PopupChoiceOptions	main\cwindows.c	<static OPTION * PopupChoiceOptions = NULL;>
+PopupChoiceRow	main\cwindows.c	<static UCHAR PopupChoiceRow;>
+PopupMenu	main\winmenu.c	<BOOLEAN PopupMenu(WMENU * Menu)>
+PopupWindow	main\cwindows.c	<static WINDOW * PopupWindow;>
+popupWindowBegin	main\cwindows.c	<BOOLEAN popupWindowBegin(void)>
+popupWindowEnd	main\cwindows.c	<void popupWindowEnd(void)>
+popupWindowSetup	main\cwindows.c	<void popupWindowSetup(unsigned char row,     unsigned char column,>
+Present	inc\dos16.h	<#define Present     0x80>
+PRESSED	inc\tutordef.h	<#define PRESSED      1>
+prev_field	main\winmenu.c	<static void prev_field(WMENU * Menu)>
+prev_horiz_field	main\winmenu.c	<static void prev_horiz_field(WMENU * Menu)>
+prev_vert_field	main\winmenu.c	<static void prev_vert_field(WMENU * Menu)>
+PRIMTYPE_INCLUDED	inc\primtype.h	<#define PRIMTYPE_INCLUDED>
+printer	main\device.c	<static CDVCAPABILITY printer;              >
+printer_handle	main\device.c	<static CDVHANDLE printer_handle;           >
+printer_setup	main\device.c	<static CDVOPEN printer_setup = {           >
+PSEC	inc\plotbox.h	<       PSEC   = 24,                                 // picoseconds>
+PSHORT	inc\primtype.h	<typedef SHORT far *PSHORT;>
+psp_sel	inc\dos16.h	<#define psp_sel 0x28        /* selector for PSP */>
+psp_sel	inc\dos16.h	<#define psp_sel __d16_selectors.psp         /* selector for PSP */>
+ptsin	main\display.c	<  CXY  ptsin[10];        /* General-purpose point input array */>
+PUCHAR	inc\primtype.h	<typedef UCHAR far *PUCHAR;>
+PUF	inc\dos16.h	<    } PUF;>
+PULONG	inc\primtype.h	<typedef ULONG far *PULONG;>
+PUSHORT	inc\primtype.h	<typedef USHORT far *PUSHORT;>
+put_up_message_window	main\cwindows.c	<BOOLEAN put_up_message_window(char ** message_text, UCHAR coldex, WINDOW ** W)>
+put_up_title_message_window	main\cwindows.c	<static BOOLEAN put_up_title_message_window(PCHAR title_text,>
+PutUpPlotBox	main\doplot.c	<int PutUpPlotBox(void)>
+PVOID	inc\primtype.h	<typedef VOID   FAR *PVOID;>
+QUARTERX	inc\tutordef.h	<#define QUARTERX (Displayout.LastVDCXY.x / 4)>
+QUARTERY	inc\tutordef.h	<#define QUARTERY (Displayout.LastVDCXY.y / 4)>
+QuitMessage	main\keymenu.c	<char *QuitMessage[] =  { " ",>
+RASTER_X	inc\tutordef.h	<#define RASTER_X Displayout.LastXY.x>
+RASTER_Y	inc\tutordef.h	<#define RASTER_Y Displayout.LastXY.y>
+raw_keyboard_input	main\userin.c	<int raw_keyboard_input(void)>
+realloc	main\malloc16.c	<void * realloc( void * newBlock, unsigned size )>
+rectangle	main\display.c	<  CRECT  rectangle;      /* Rectangle structure for Bar etc. */>
+RED	inc\tutordef.h	<#define RED	   2>
+REGULAR_COLOR	inc\colors.h	<  {REGULAR_COLOR=0, REVERSE_COLOR, HIGHLIGHT_COLOR, SHADED_COLOR, MAX_COLOR};>
+release_message_window	main\cwindows.c	<WINDOW * release_message_window(WINDOW * MessageWindow)>
+release_string_set	main\cwindows.c	<static void release_string_set(WINDOW * windowPtr)>
+remove_configuration	main\display.c	<int remove_configuration (void)>
+remove_configuration	main\project.c	<int remove_configuration (void)>
+remove_drivers	main\display.c	<void remove_drivers(void)>
+remove_drivers	main\project.c	<void remove_drivers(void)>
+Replot	main\doplot.c	<BOOLEAN Replot(void)>
+ReplotCurvesOnly	main\doplot.c	<void ReplotCurvesOnly(void)>
+report_error	main\display.c	<void report_error (char *func, int mode)>
+Rest_Ints	inc\dos16.h	<#define Rest_Ints         0x10    /* restore changed interrupts */>
+restore_screen_area	main\device.c	<SaveAreaInfo * restore_screen_area(SaveAreaInfo * save_buffer)>
+REVERSE_COLOR	inc\colors.h	<  {REGULAR_COLOR=0, REVERSE_COLOR, HIGHLIGHT_COLOR, SHADED_COLOR, MAX_COLOR};>
+RIGHTSHIFT	inc\constant.h	<enum { RIGHTSHIFT = 1, LEFTSHIFT = 2, CNTRL_FLAG = 4, ALT_FLAG = 8 } ;>
+RIGHTSIDE	inc\plotbox.h	<typedef enum { NOSIDE, RIGHTSIDE, LEFTSIDE } ZPosition ;>
+RMCALL_INT	inc\dos16.h	<#define RMCALL_INT 0x20     /* "resident Basic" interrupt used by rmRCall */>
+RotateSelector	inc\dos16.h	<#define RotateSelector 0x80 /* do not quickly reuse cancelled selectors */>
+row_col	main\display.c	<  CROWCOL row_col;       /* Cursor text rows and columns */>
+row_to_y	main\device.c	<int row_to_y(int row)>
+RSHIFT	inc\plotbox.h	<       RSHIFT =  8,                                 // raman shift>
+RSIAPI	inc\dos16.h	< #define RSIAPI _far>
+RSIAPI	inc\dos16.h	< #define RSIAPI cdecl _loadds far>
+RSIAPI	inc\dos16.h	< #define RSIAPI cdecl far>
+RSIAPI	inc\dos16.h	< #define RSIAPI pascal _loadds far>
+RSIAPI	inc\dos16.h	<#define RSIAPI cdecl _loadds far>
+RUN_ALL_EXPS	inc\dos16.h	<#define RUN_ALL_EXPS    0>
+RUN_AND_RETURN	inc\dos16.h	<#define RUN_AND_RETURN  2>
+RUN_PKGS_ONLY	inc\dos16.h	<#define RUN_PKGS_ONLY   1>
+RunData	main\data.c	<DATA RunData = {>
+RunFKeyForm	main\keymenu.c	<int RunFKeyForm(void)>
+RunTime	main\timemenu.c	<float RunTime;>
+save_area_info	inc\device.h	<typedef struct save_area_info {>
+save_data_file	main\datafile.c	<ERROR_CATEGORY save_data_file(char * pathbase)>
+save_row_col	main\display.c	<  CROWCOL save_row_col;  /* Save Cursor text rows and columns */>
+save_screen_area	main\device.c	<SaveAreaInfo * save_screen_area(UCHAR row, UCHAR column, UCHAR n_rows,>
+SaveAreaInfo	inc\device.h	<typedef struct save_area_info SaveAreaInfo;>
+SC_	main\userin.c	<#define SC_>
+SC_A	main\userin.c	<#define SC_A                30>
+SC_ALT_F1	main\userin.c	<#define SC_ALT_F1          104>
+SC_ALT_F10	main\userin.c	<#define SC_ALT_F10         113>
+SC_ALT_F2	main\userin.c	<#define SC_ALT_F2          105>
+SC_ALT_F3	main\userin.c	<#define SC_ALT_F3          106>
+SC_ALT_F4	main\userin.c	<#define SC_ALT_F4          107>
+SC_ALT_F5	main\userin.c	<#define SC_ALT_F5          108>
+SC_ALT_F6	main\userin.c	<#define SC_ALT_F6          109>
+SC_ALT_F7	main\userin.c	<#define SC_ALT_F7          110>
+SC_ALT_F8	main\userin.c	<#define SC_ALT_F8          111>
+SC_ALT_F9	main\userin.c	<#define SC_ALT_F9          112>
+SC_B	main\userin.c	<#define SC_B                48>
+SC_BS	main\userin.c	<#define SC_BS               14>
+SC_C	main\userin.c	<#define SC_C                46>
+SC_CTRL_END	main\userin.c	<#define SC_CTRL_END        117>
+SC_CTRL_F1	main\userin.c	<#define SC_CTRL_F1          94>
+SC_CTRL_F10	main\userin.c	<#define SC_CTRL_F10        103>
+SC_CTRL_F2	main\userin.c	<#define SC_CTRL_F2          95>
+SC_CTRL_F3	main\userin.c	<#define SC_CTRL_F3          96>
+SC_CTRL_F4	main\userin.c	<#define SC_CTRL_F4          97>
+SC_CTRL_F5	main\userin.c	<#define SC_CTRL_F5          98>
+SC_CTRL_F6	main\userin.c	<#define SC_CTRL_F6          99>
+SC_CTRL_F7	main\userin.c	<#define SC_CTRL_F7         100>
+SC_CTRL_F8	main\userin.c	<#define SC_CTRL_F8         101>
+SC_CTRL_F9	main\userin.c	<#define SC_CTRL_F9         102>
+SC_CTRL_HOME	main\userin.c	<#define SC_CTRL_HOME       119>
+SC_CTRL_LFARR	main\userin.c	<#define SC_CTRL_LFARR      115>
+SC_CTRL_PGDN	main\userin.c	<#define SC_CTRL_PGDN       118>
+SC_CTRL_PGUP	main\userin.c	<#define SC_CTRL_PGUP       132>
+SC_CTRL_PRTSC	main\userin.c	<#define SC_CTRL_PRTSC      114>
+SC_CTRL_RTARR	main\userin.c	<#define SC_CTRL_RTARR      116>
+SC_D	main\userin.c	<#define SC_D                32>
+SC_DEL	main\userin.c	<#define SC_DEL              83>
+SC_DOWN_ARROW	main\userin.c	<#define SC_DOWN_ARROW       80>
+SC_E	main\userin.c	<#define SC_E                18>
+SC_END	main\userin.c	<#define SC_END              79>
+SC_ENTER	main\userin.c	<#define SC_ENTER            28>
+SC_ESC	main\userin.c	<#define SC_ESC               1>
+SC_F	main\userin.c	<#define SC_F                33>
+SC_F1	main\userin.c	<#define SC_F1               59>
+SC_F10	main\userin.c	<#define SC_F10              68>
+SC_F2	main\userin.c	<#define SC_F2               60>
+SC_F3	main\userin.c	<#define SC_F3               61>
+SC_F4	main\userin.c	<#define SC_F4               62>
+SC_F5	main\userin.c	<#define SC_F5               63>
+SC_F6	main\userin.c	<#define SC_F6               64>
+SC_F7	main\userin.c	<#define SC_F7               65>
+SC_F8	main\userin.c	<#define SC_F8               66>
+SC_F9	main\userin.c	<#define SC_F9               67>
+SC_G	main\userin.c	<#define SC_G                34>
+SC_H	main\userin.c	<#define SC_H                35>
+SC_HOME	main\userin.c	<#define SC_HOME             71>
+SC_I	main\userin.c	<#define SC_I                23>
+SC_INS	main\userin.c	<#define SC_INS              82>
+SC_J	main\userin.c	<#define SC_J                36>
+SC_K	main\userin.c	<#define SC_K                37>
+SC_KEYPAD_MINUS	main\userin.c	<#define SC_KEYPAD_MINUS     74>
+SC_KEYPAD_PLUS	main\userin.c	<#define SC_KEYPAD_PLUS      78>
+SC_L	main\userin.c	<#define SC_L                38>
+SC_LEFT_ARROW	main\userin.c	<#define SC_LEFT_ARROW       75>
+SC_M	main\userin.c	<#define SC_M                50>
+SC_N	main\userin.c	<#define SC_N                49>
+SC_O	main\userin.c	<#define SC_O                24>
+SC_P	main\userin.c	<#define SC_P                25>
+SC_PG_DN	main\userin.c	<#define SC_PG_DN            81>
+SC_PG_UP	main\userin.c	<#define SC_PG_UP            73>
+SC_Q	main\userin.c	<#define SC_Q                16>
+SC_R	main\userin.c	<#define SC_R                19>
+SC_RIGHT_ARROW	main\userin.c	<#define SC_RIGHT_ARROW      77>
+SC_S	main\userin.c	<#define SC_S                31>
+SC_SHIFT_F1	main\userin.c	<#define SC_SHIFT_F1         84>
+SC_SHIFT_F10	main\userin.c	<#define SC_SHIFT_F10        93>
+SC_SHIFT_F2	main\userin.c	<#define SC_SHIFT_F2         85>
+SC_SHIFT_F3	main\userin.c	<#define SC_SHIFT_F3         86>
+SC_SHIFT_F4	main\userin.c	<#define SC_SHIFT_F4         87>
+SC_SHIFT_F5	main\userin.c	<#define SC_SHIFT_F5         88>
+SC_SHIFT_F6	main\userin.c	<#define SC_SHIFT_F6         89>
+SC_SHIFT_F7	main\userin.c	<#define SC_SHIFT_F7         90>
+SC_SHIFT_F8	main\userin.c	<#define SC_SHIFT_F8         91>
+SC_SHIFT_F9	main\userin.c	<#define SC_SHIFT_F9         92>
+SC_T	main\userin.c	<#define SC_T                20>
+SC_TAB	main\userin.c	<#define SC_TAB              15   /* ASCII = 9, shift-tab ASCII = 0 */>
+SC_U	main\userin.c	<#define SC_U                22>
+SC_UP_ARROW	main\userin.c	<#define SC_UP_ARROW         72>
+SC_V	main\userin.c	<#define SC_V                47>
+SC_W	main\userin.c	<#define SC_W                17>
+SC_X	main\userin.c	<#define SC_X                45>
+SC_Y	main\userin.c	<#define SC_Y                21>
+SC_Z	main\userin.c	<#define SC_Z                44>
+scale_axis	main\plotbox.c	<void scale_axis(AXISDATA * axis)>
+scientificExponent	main\plotbox.c	<static int scientificExponent(double axisEnd1, double axisEnd2)>
+screen	main\device.c	<CDVCAPABILITY screen;>
+screen_cols	main\device.c	<int screen_cols = 80;>
+screen_handle	main\device.c	<CDVHANDLE screen_handle;>
+screen_rows	main\device.c	<int screen_rows = 25;>
+screen_setup	main\device.c	<CDVOPEN screen_setup =>
+SECOND	inc\plotbox.h	<       ADJ_NM = 13, WLEN_UNITNUM = 14, SECOND = 20,>
+sel_style	main\display.c	<  CFILLSTYLE sel_style;  /* Selected fill style index */>
+selected	main\display.c	<  int  selected;         /* Variable used for returned value */>
+SelMask	inc\dos16.h	<#define SelMask 0xFFF8          /* lose ring and table bits */>
+set_attributes	main\device.c	<UCHAR set_attributes(UCHAR fore, UCHAR back)>
+set_cursor	main\winmenu.c	<void set_cursor(int row, int col)>
+set_cursor_type	main\winmenu.c	<void set_cursor_type(enum CursorType ctype)>
+set_cursor_type_default	main\winmenu.c	<void set_cursor_type_default(void)>
+set_plotbox_size	main\plotbox.c	<void set_plotbox_size(PLOTBOX * plot)>
+setClipRectToFullScreen	main\device.c	<void setClipRectToFullScreen(void)>
+setMarkerRep	main\winmenu.c	<static void setMarkerRep(enum CursorType ctype)>
+SetPlotForDevice	main\doplot.c	<void SetPlotForDevice(CRECT * GraphArea)>
+shade_menuitem	main\keymenu.c	<void shade_menuitem(char index)>
+SHADED_COLOR	inc\colors.h	<  {REGULAR_COLOR=0, REVERSE_COLOR, HIGHLIGHT_COLOR, SHADED_COLOR, MAX_COLOR};>
+SHIFT_STATUS_ADDR	inc\constant.h	<#define SHIFT_STATUS_ADDR  0x00400017>
+SHORT	inc\primtype.h	<typedef int SHORT;>
+ShowFKeys	main\keymenu.c	<SHORT ShowFKeys(void)>
+SINVERDOT	inc\tutordef.h	<#define SINVERDOT      7>
+SizeAxis	main\plotbox.c	<void SizeAxis(PLOTBOX *plot, char which_one, AXISDATA * *axis,>
+SK_DOWN_ARROW	inc\cursor.h	<#define SK_DOWN_ARROW      0x5000>
+SK_LEFT_ARROW	inc\cursor.h	<#define SK_LEFT_ARROW      0x4B00>
+SK_RIGHT_ARROW	inc\cursor.h	<#define SK_RIGHT_ARROW     0x4D00>
+SK_UP_ARROW	inc\cursor.h	<#define SK_UP_ARROW        0x4800>
+SOLID	inc\tutordef.h	<#define SOLID	     1>
+SPACE	inc\keys.h	<#define SPACE               32>
+SQUAREPNTS	inc\tutordef.h	<#define SQUAREPNTS   5>
+SQUARES	inc\tutordef.h	<#define SQUARES       22>
+SRANDOMDOT	inc\tutordef.h	<#define SRANDOMDOT    18>
+start_new_string_set	main\cwindows.c	<char ** start_new_string_set(int * elements)>
+startLinePlot	main\curvdraw.c	<static BOOLEAN startLinePlot(USHORT numPoints)>
+str_len	main\display.c	<  int  str_len;          /* String length variable */>
+StrBox	main\symbol.c	<static void StrBox(char * text, float angle, float cell_width,>
+STRING_FIELD	inc\winmenu.h	<enum field_types {NO_DATA = 0, STRING_FIELD, FLOAT_FIELD, INT_FIELD};>
+STRING_SET_GRANULES	main\cwindows.c	<#define STRING_SET_GRANULES 32>
+string_to_field_string	main\winmenu.c	<void string_to_field_string(char * source_string)>
+strings_to_win	main\cwindows.c	<static void strings_to_win(WINDOW * WindowPtr,>
+style	main\display.c	<  CFILLSTYLE style;      /* Fill style index */>
+SwCtrl_A20	inc\dos16.h	<#define SwCtrl_A20 0x01     /* force A20 line 0 on 386's in real mode */>
+symbol	main\oldsym.c	<void symbol( CXY *TextPt, char * s, float angle, float cell_width,>
+symbol	main\symbol.c	<void symbol(CXY *TextPt, char * s, float angle, float cell_width,>
+SYMBOL_INCLUDED	inc\symbol.h	<#define SYMBOL_INCLUDED>
+SZFLOAT	inc\constant.h	<#define SZFLOAT sizeof( float )>
+SZLONG	inc\constant.h	<#define SZLONG  sizeof( long )>
+TENMAX	inc\tutordef.h	<#define TENMAX	    10>
+test_for_DOS_critical_error	main\error.c	<BOOLEAN test_for_DOS_critical_error(char * device_or_file)>
+TEXT	inc\tutordef.h	<#define TEXT	   2>
+text_cell_height	main\device.c	<int text_cell_height;>
+text_cell_width	main\device.c	<int text_cell_width;>
+TextCursor	main\winmenu.c	<CMARKERTYPE TextCursor = CURSORTYPE_NORMAL;>
+TextCursorOn	main\winmenu.c	<BOOLEAN TextCursorOn = FALSE;>
+THIRD_X	inc\tutordef.h	<#define THIRD_X Displayout.LastVDCXY.x / 3>
+THIRD_Y	inc\tutordef.h	<#define THIRD_Y Displayout.LastVDCXY.y / 3>
+THREEDOTPAT	inc\tutordef.h	<#define THREEDOTPAT   24>
+THREEQUARTERX	inc\tutordef.h	<#define THREEQUARTERX ((Displayout.LastVDCXY.x / 4 ) * 3 )>
+THREEQUARTERY	inc\tutordef.h	<#define THREEQUARTERY ((Displayout.LastVDCXY.y / 4 ) * 3 )>
+tightLabel	main\plotbox.c	<static void tightLabel(double tickVal[], double min, double max,>
+TIME_DIS_UNITNUM	inc\plotbox.h	<       TIME_DIS_UNITNUM = 26,>
+TimeFields	main\timemenu.c	<MENU_FIELD TimeFields[] =>
+TimeMenu	main\timemenu.c	<WMENU TimeMenu = {"Run Time Setup Menu", TimeFields,>
+TimetoExit	inc\tutordef.h	<#define TimetoExit 1>
+title_into_window	main\cwindows.c	<void title_into_window(WINDOW * W, CHAR *title, UCHAR color_index)>
+title_message_window	main\cwindows.c	<BOOLEAN title_message_window(PCHAR title_text, PCHAR *message_text,>
+TITLE_SIZE	inc\plotbox.h	<#define TITLE_SIZE 30>
+TitleText	main\project.c	<static char * TitleText[] = {"TM Long Calibration Software",>
+toggle_insert_mode	main\winmenu.c	<static void toggle_insert_mode(void)>
+TRANDOMDOT	inc\tutordef.h	<#define TRANDOMDOT    19>
+transient	main\display.c	<int transient;        /* Transient-drivers-loaded flag */>
+transient	main\project.c	<int transient;                /* Transient-drivers-loaded flag */>
+TRANSPARENT	inc\tutordef.h	<#define TRANSPARENT 1>
+TRUE	inc\primtype.h	<enum { FALSE = 0, TRUE = 1 } ;>
+TryExit	main\keymenu.c	<int TryExit(void)>
+TSF	inc\dos16.h	<typedef struct tsf_struct       TSF;>
+TSF2	inc\dos16.h	<typedef struct tsf_struct_k286  TSF2;>
+TSF3	inc\dos16.h	<typedef struct tsf_struct_k386  TSF3;>
+tsf_struct	inc\dos16.h	<struct tsf_struct>
+tsf_struct_k286	inc\dos16.h	<struct tsf_struct_k286>
+tsf_struct_k386	inc\dos16.h	<struct tsf_struct_k386>
+TSFPREV	inc\dos16.h	<typedef TSF NearPtr TSFPREV;>
+TSFPREV	inc\dos16.h	<typedef unsigned TSFPREV;>
+TSFX	inc\dos16.h	<typedef union _tsf_union { TSF2 t2; TSF3 t3;} TSFX;>
+TSR_EXIT	inc\dos16.h	<#define TSR_EXIT        0       /* Flags to D16TsrExit () */>
+TSR_INSTALL	inc\dos16.h	<#define TSR_INSTALL     1>
+TSR_IO_STATE	inc\dos16.h	<} TSR_IO_STATE;>
+TSR_PSP_IO_offset	inc\dos16.h	<#define TSR_PSP_IO_offset  0x18 /* offset of IO table in PSP */>
+TSR_UNINSTALL	inc\dos16.h	<#define TSR_UNINSTALL   2>
+TWOPNTS	inc\tutordef.h	<#define TWOPNTS      2>
+txt_to_win	main\cwindows.c	<void txt_to_win(WINDOW * W, char * string, UCHAR row_offset,>
+UCHAR	inc\primtype.h	<typedef unsigned char UCHAR;>
+ULONG	inc\primtype.h	<typedef unsigned long ULONG;>
+UM	inc\plotbox.h	<       UM     =  3,                                 // micrometers>
+unhighlight_menuitem	main\keymenu.c	<void unhighlight_menuitem(char index)>
+update_display_string	main\winmenu.c	<void update_display_string(void)>
+USEC	inc\plotbox.h	<       USEC   = 22,                                 // microsecond>
+user_gdt	inc\dos16.h	<#define user_gdt (user_sel >> 3)            /* first user gdt index */>
+user_gdt	inc\dos16.h	<#define user_gdt 16         /* first user gdt index */>
+user_sel	inc\dos16.h	<#define user_sel 0x80       /* first user selecter (user_gdt << 3) */>
+user_sel	inc\dos16.h	<#define user_sel __d16_selectors.user       /* first user selecter */>
+USERIN_INCLUDED	inc\userin.h	<#define USERIN_INCLUDED>
+USHORT	inc\primtype.h	<typedef unsigned USHORT;>
+v_align	main\display.c	<  CVERTALIGN far v_align;/* Vertical alignment */>
+va_file_message_window	main\cwindows.c	<BOOLEAN va_file_message_window(const char * file_spec, int message_index,>
+val	main\display.c	<  int  val;              /* Marker y-position value */>
+VERTICALBRICK	inc\tutordef.h	<#define VERTICALBRICK 33>
+VERTICALDASH	inc\tutordef.h	<#define VERTICALDASH  32>
+VOID	inc\primtype.h	<#define VOID    void>
+VOLT	inc\plotbox.h	<       AMP  = 30, VOLT = 31, OHM = 32, COULOMB = 33, MHO = 34,>
+W	main\winmenu.c	<WINDOW * W = 0;              /* Window of popup menu */>
+waitcr	main\display.c	<void waitcr(void)>
+WATT	inc\plotbox.h	<       WATT = 35>
+WAVENUMBER	inc\plotbox.h	<       METER  =  6, WAVENUMBER   =  7,>
+WCROSSPAT	inc\tutordef.h	<#define WCROSSPAT      6>
+WEAVE	inc\tutordef.h	<#define WEAVE	      14>
+where	main\display.c	<char far   *where;      /* Where to load drivers */>
+where	main\project.c	<char far   *where;            /* Where to load drivers */>
+WHITE	inc\tutordef.h	<#define WHITE	   1>
+WIDECROSS	inc\tutordef.h	<#define WIDECROSS   6>
+WIDEDOT	inc\tutordef.h	<#define WIDEDOT       12>
+WIDESLASH	inc\tutordef.h	<#define WIDESLASH   3>
+WIDTHLIMIT	inc\tutordef.h	<#define WIDTHLIMIT   8>
+wind	main\cwindows.c	<struct wind {>
+WINDOW	inc\cwindows.h	<typedef struct wind WINDOW;>
+WINMENU_INCLUDED	inc\winmenu.h	<#define WINMENU_INCLUDED>
+WLEN_UNITNUM	inc\plotbox.h	<       ADJ_NM = 13, WLEN_UNITNUM = 14, SECOND = 20,>
+WMENU	inc\winmenu.h	<  } WMENU;>
+WRANDOMDOT	inc\tutordef.h	<#define WRANDOMDOT    30>
+WSLASHPAT	inc\tutordef.h	<#define WSLASHPAT      3>
+WVERTSTRIPE	inc\tutordef.h	<#define WVERTSTRIPE   10>
+x	main\display.c	<  int  x;                /* Temporary x coordinate */>
+x_to_column	main\device.c	<int x_to_column(int coord)>
+XMAXMIN	main\plotbox.c	<enum { XMAXMIN = 4, YMAXMIN = 2, ZMAXMIN = 1 };>
+XVirToPhysScaleFactor	main\device.c	<float XVirToPhysScaleFactor(void)>
+xy	main\display.c	<  CXY  xy;               /* An XY structure for a point */>
+y_to_row	main\device.c	<int y_to_row(int coord)>
+YELLOW	inc\tutordef.h	<#define YELLOW	   5>
+YES	inc\keys.h	<#define YES                  1>
+yes_no_choice_text	main\cwindows.c	<static char * yes_no_choice_text[] = { "No", "Yes", NULL };>
+yes_no_choice_window	main\cwindows.c	<int yes_no_choice_window(char ** message_text, int default_choice,>
+YMAXMIN	main\plotbox.c	<enum { XMAXMIN = 4, YMAXMIN = 2, ZMAXMIN = 1 };>
+yoff	main\display.c	<  int  yoff;             /* Distance between characters */>
+YVirToPhysScaleFactor	main\device.c	<float YVirToPhysScaleFactor(void)>
+ZMAXMIN	main\plotbox.c	<enum { XMAXMIN = 4, YMAXMIN = 2, ZMAXMIN = 1 };>
+ZPosition	inc\plotbox.h	<typedef enum { NOSIDE, RIGHTSIDE, LEFTSIDE } ZPosition ;>

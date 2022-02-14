@@ -1,0 +1,75 @@
+659 c 659
+<                              int axis_length)
+>                              int char_width, int axis_length)
+703,704 c 703
+< //      textpt.y -= (tick_line_length >> 2) + char_height;  /* 1->2 MLM */
+<       textpt.y -= char_height;  /* 1->2 MLM */
+>       textpt.y -= (tick_line_length >> 1) + char_height;  /* 1->2 MLM */
+713 c 712
+<           ((double)(textlen * char_height) * plot->xscale);
+>           ((double)(textlen * char_width) * plot->xscale);
+817 c 816
+<   AlignText((FLOAT) ((double) char_height * plot->xscale),
+>   AlignText((FLOAT) ((double) char_width * plot->xscale),
+819 c 818
+<     x_align, y_align, text, & textpt, (FLOAT) axis_angle);
+>     x_align, y_align, text, &textpt, (FLOAT)axis_angle);
+824 c 823
+<          (float) ((double) char_height * plot->xscale),
+>          (float) ((double) char_width * plot->xscale),
+834,836 c 833,835
+<     char_height = (char_height * 3) / 4;
+< 
+<     AlignText((FLOAT) ((double) char_height * plot->xscale),
+> //    char_height = (char_height * 3) / 4;
+> 
+>     AlignText((FLOAT) ((double) char_width * plot->xscale),
+841 c 840
+<       (float) ((double) char_height * plot->xscale),
+>       (float) ((double) char_width * plot->xscale),
+957 c 956
+<   int         char_height,i;
+>   int         char_height, char_width, i;
+980 a 980,981
+>   GetTextParams(&char_height, &char_width);
+> 
+984 c 985
+<       char_height=percent(Margin,30);
+> //    char_height=percent(Margin,30);
+989 c 990
+<       char_height=percent(Margin,24);
+> //    char_height=percent(Margin,24);
+994 c 995
+<       char_height = percent(Margin, 25);
+> //    char_height = percent(Margin, 25);
+1013 c 1014
+<       (int) ((double) ((tickCount - 1) * 6.7 * char_height) * plot->xscale);
+>       (int) ((double) ((tickCount - 1) * 6.7 * char_width) * plot->xscale);
+1018,1021 d 1019
+<   if (tick_value_max_len > axis_length)
+<     char_height = (int) ((double) char_height * (double) axis_length /
+<          (double) tick_value_max_len);
+< 
+1023,1027 c 1020,1021
+<   legend_length = strlen(axis->legend) * (int) ((double) char_height *
+<                           plot->xscale);
+<   if (legend_length > axis_length)
+<     char_height = (int) ((double) char_height * (double)axis_length /
+<                     (double) legend_length);
+>   legend_length = strlen(axis->legend) * (int) ((double) char_width *
+>                           plot->xscale);
+1070,1071 d 1064
+<       // ASSUME: draw_axis('Z') is not called unless there really is a
+<       //         z-axis to draw.
+1106 c 1098
+<         textpt.y -= tick_line_length/4; /* 2->4 MLM */
+>         textpt.y -= tick_line_length/2; /* 2->4 MLM */
+1157 c 1149
+<     AlignText((FLOAT) ((double) char_height * plot->xscale),
+>     AlignText((FLOAT) ((double) char_width * plot->xscale),
+1163 c 1155
+<               (float) ((double) char_height * plot->xscale),
+>               (float) ((double) char_width * plot->xscale),
+1170 c 1162
+<                     tick_line_length, char_height, axis_length);
+>                     tick_line_length, char_height, char_width, axis_length);

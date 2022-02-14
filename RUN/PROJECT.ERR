@@ -1,0 +1,71 @@
+@@@ 2   ERROR_FLOATING_POINT
+Floating point error
+@@@ 300 ERROR_OPEN
+Error Opening File: %s
+@@@ 301 ERROR_CLOSE
+Error Closing File: %s
+@@@ 302 ERROR_READ
+Error Reading File: %s
+@@@ 303 ERROR_WRITE
+Error Writing File: %s
+@@@ 304 ERROR_BAD_FILENAME
+Filename %s is not a legal filename
+@@@ 305 ERROR_BAD_DIRNAME
+Directory name %s is not a legal directory name
+@@@ 306 ERROR_BAD_DRIVE
+Drive %s is not present or cannot be used
+@@@ 307 ERROR_ACCESS_DENIED
+File or device: %s cannot be accessed
+@@@ 308 ERROR_SHARING
+Sharing violation on device %s
+@@@ 309 ERROR_DEV_OPEN
+Could not access the device: %s
+@@@ 310 ERROR_DEV_CLOSE
+Error releasing device: %s
+@@@ 311 ERROR_DEV_READ
+Error reading device: %s
+@@@ 312 ERROR_DEV_WRITE
+Error writing to device: %s
+
+@@@ 320 ERROR_DRIVE_NOT_READY
+The door on drive %s is not closed
+@@@ 321 ERROR_SEEK
+Seek error on drive %s - disk damage!
+@@@ 322 ERROR_SECTOR_NOT_FOUND
+Sector not found on drive %s - disk damage!
+@@@ 323 ERROR_BAD_SECTOR
+Bad sector found on drive %s - disk damage!
+@@@ 324 ERROR_GENERAL_DISK_FAILURE
+The disk in drive %s cannot be read
+
+@@@ 400 ERROR_DEV_IOCTL
+No response from device %s
+@@@ 410 ERROR_NO_PAPER
+The printer on port %s is out of paper
+
+@@@ 1000 
+Operation aborted by CTRL-BREAK
+
+@@@ 9999 ERROR_GENERIC
+General error
+
+@@@ 900 DOSCRIT_WRITE_PROTECT
+@@@ 901 DOSCRIT_UNKNOWN_UNIT
+@@@ 902 DOSCRIT_DRIVE_NOT_READY
+@@@ 903 DOSCRIT_UNKNOWN_COMMAND
+@@@ 904 DOSCRIT_DATA_CRC_ERROR
+@@@ 905 DOSCRIT_BAD_REQUEST
+@@@ 906 DOSCRIT_SEEK_ERROR
+@@@ 907 DOSCRIT_UNKNOWN_MEDIA
+@@@ 908 DOSCRIT_SECTOR_NOT_FOUND
+@@@ 909 DOSCRIT_NO_PAPER
+@@@ 910 DOSCRIT_WRITE_FAULT
+@@@ 911 DOSCRIT_READ_FAULT
+@@@ 912 DOSCRIT_GENERAL_FAILURE
+
+
+
+
+
+
+

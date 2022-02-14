@@ -1,0 +1,101 @@
+
+Tags Generator V1.8 Sun May  3 22:41:36 1992 -- J. Kercheval
+
+Usage: TAGS {[OPTIONS] [SOURCEFILE|@LISTFILE]}
+
+  -h or -? to obtain this help screen
+
+  @LISTFILE for list file of input file names.  A list file is in the form
+     of a response file (ie. a list of files seperated by some delimiter).
+     The allowed delimiters for file seperation are '+', ',', ';' and normal
+     whitespace.  This file allows commented lines by preceding any comment
+     with a pound sign (#).  A comment is from the '#' to the end of the
+     line and may start after any whitespace character
+
+  -x{EXCLUDEFILE|@LISTFILE} excludes the files specified by EXCLUDEFILE
+     or exclude all files listed in LISTFILE.
+
+  -tTAGFILE to output to a (possibly existing) tag file and will result in
+     previous tags for input files being removed from the output file.
+     This tagfile is assumed to be in one of this utilities output formats.
+     if -m or -s are used this switch is ignored (all output is to stdout).
+
+  -lLOGFILE for output to a log file in a LISTFILE format suitable as input.
+    behavior regarding existing files is determined by the case of the switch.
+    -l  creates and outputs to a file overwriting any currently existing file
+    -L  appends all output to the logfile if there is an already existing file
+
+  -o[options] for output format to stdout or the tag file if -t switch is used
+     e  Epsilon >= V6.0  ( tokenString \t fileName \t characterOffset \t line )
+     5  Epsilon <= V5.03 ( tokenString;fileName;characterOffset )
+     g  GNU tag          ( tokenString \t fileName \t /$line^/ )
+     s  Space-Delimited  ( tokenString fileName lineNumber )
+     m  MicroSoft Error  ( tokenString fileName(lineNumber) )
+
+  -a[options] to specify assembly tagging and to detail the token types.
+     Default tagging is -afdlmsu (80x86 assembly using MASM/TASM syntax)
+     f  procedure labels       ( token proc )( proc token )
+     d  definition labels      ( token equ const )( token db declaration )
+     l  local labels           ( token label )( label token )( token: )
+     m  macro labels           ( token macro )( macro token )
+     s  struc labels           ( token struc )( struc token )
+     u  union labels           ( token union )( union token )
+
+  -c[options] to specify C tagging and to detail the token types. Default
+     tagging options are -cdmstekuvcfpxi (standard ANSI 2.0 C/C++). Note that
+     use of the -cx and the -ci switch are modifiers and will only be effective
+     when other options are used (ie. -cpx must be specified to obtain extern
+     prototypes, -cx alone yields nothing).  Note that the -cx and -ci modifier
+     has no effect for define and macro tags which are tagged only according
+     to the -cd and -cm switches respectively.  Additionally the -cx modifier
+     is ignored for function tags.  The order of all of these options is not
+     significant.
+     d  defines                ( #define token statement )
+     m  macro labels           ( #define token() statement )
+     s  struct globals         ( struct token {} )
+     t  typedef globals        ( typedef declaration token, token, ... )
+     e  enum globals           ( enum token {} )
+     k  enum konstants         ( enum { token, token, token, ...} )
+     u  union globals          ( union token {} )
+     v  global variable        ( declaration token, token = {}, token, ... )
+     c  global class           ( class token: {} )
+     f  function definitions   ( token() declaration {} )
+     p  prototypes             ( token(, )
+     i  static declarations    ( static declaration )
+     x  extern defines         ( extern declaration )
+                               ( extern "C" declaration )
+                               ( extern "C" { declaration; declaration; ... } )
+
+  -j will suppress junk filtering used during token output
+  -q will suppress normal output to stderr and program version information
+  -r use relative pathnames in output rather than fully qualified path names
+  -n do not sort the tag output (Often used in conjunction with GNU style tags)
+  -i use a case sensitive sort (Normally a case insensitive sort is used)
+
+  The following result only in sorting of the input files (no tagging is done).
+     Output is to stdout only (-t is ignored) when using these switches.
+     -m for merge sort of the specified existing files (assumed to be sorted)
+     -s sort input files only, all files are assumed to be in an unsorted state
+
+  The TMP environment variable is used for temporary files.  The default for
+     tags is to use C style tagging, the Epsilon tag file format, to sort
+     the output before finally placing it in the output file (or stdout if -t
+     is not used) and to be verbose and log activity to stderr.
+  Each file specified on the command line or within a LISTFILE will be tagged
+     only once regardless of the number of times it appears on the command
+     line (This includes LISTFILEs as well as filenames and the files listed
+     within LISTFILEs).
+  All of the switches may be specified anywhere on the command line and with
+     the exception of the style switches (-a, -c) are not position dependent.
+     The style switches are active only for input files which fall after them
+     on the command line and allows the specification of different tagging
+     styles and types on a file by file basis.
+  Input file and LISTFILE specifications allow the use of *IX shell style
+     expressions (A subset of the standard UNIX regular expression syntax).
+     This allows input file names such as "*", "*t?*.c" and "*[e-gxyz]*".
+     Note that "*" in this case is completely equivalent to "*.*" in normal
+     DOS usage. The use of "*." will obtain files without extensions.
+  This utility performs a CRC validation on itself to prevent corruption and
+     viral infection from outside influences.  Modification of this file in
+     any way will result in a failure of the internal CRC check.  On CRC
+     failure the program will exit with a warning message.

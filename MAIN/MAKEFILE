@@ -1,0 +1,172 @@
+#
+#  Makefile for DISPLAY.C for Turbo C ANSI-C GSS*CGI Binding 
+#
+#!if !$d(MODEL)
+MODEL = l
+#!endif
+
+!if '$(MODEL)'   == 'l'
+MODNAME = Large
+!elif '$(MODEL)' == 's'
+MODNAME = Small
+!elif '$(MODEL)' == 'c'
+MODNAME = Compact
+!elif '$(MODEL)' == 'm'
+MODNAME = Medium
+!endif
+
+# Change these macro definitions to match your structure
+in     =  ..\inc
+od     =  ..\obj
+ru     =  ..\run
+bcb    =  c:\tools\bc\bin
+bci    =  c:\tools\bc\inc
+bcl    =  c:\tools\bc\lib
+gssl   =  c:\tools\gss\lib
+gssi   =  c:\tools\gss\inc
+
+incs=$(bci);$(in);$(gssi)
+libs=$(gssl);$(bcl)
+
+warns =-w -w-sus -w-stu -w-stv
+flts= -ff- -f287
+
+!if !$d(DEBUG)
+cflags =-a -c -m$(MODEL) -N- -K- -Qe- -r -n$(od)
+lflags =/m/d/c
+!else
+cflags =-a -c -m$(MODEL) -N- -K- -Qe- -r- -v -n$(od)
+lflags =/m/d/c/v
+!endif
+
+.NOSWAP
+.AUTODEPEND
+.SILENT
+.PATH.obj = $(od)
+.PATH.c   = .\#
+.PATH.asm   = .\#
+
+.asm.obj :
+  tasm -mx -t $<,$(od)\#
+
+.c.obj :
+  @copy &&<
+$(cflags)
+$(warns)
+$(flts)
+-L$(libs)
+-I$(incs)
+< project.cfg > NUL
+  $(bcb)\bcc +project.cfg {$< }
+
+error_file = errs
+
+ALL : UPDATE $(ru)\project.exe
+
+UPDATE :
+    @echo Begin build using $(MODNAME) model...
+
+$(ru)\project.exe: project.obj \
+                   cwindows.obj \
+                   curvdraw.obj \
+                   datafile.obj \
+                   device.obj \
+                   doplot.obj \
+                   data.obj \
+                   dio24.obj \
+                   error.obj \
+                   hrclock.obj \
+                   int24.obj \
+                   keymenu.obj \
+                   plotbox.obj \
+                   plotmenu.obj \
+                   symbol.obj \
+                   timemenu.obj \
+                   userin.obj \
+                   winmenu.obj
+    echo Linking...
+    $(bcb)\tlink $(lflags) @&&<
+$(bcl)\c0$(MODEL).obj+
+$(od)\project.obj +
+$(od)\cwindows.obj +
+$(od)\curvdraw.obj +
+$(od)\datafile.obj +
+$(od)\device.obj +
+$(od)\dio24.obj +
+$(od)\doplot.obj +
+$(od)\data.obj +
+$(od)\error.obj +
+$(od)\hrclock.obj +
+$(od)\int24.obj +
+$(od)\keymenu.obj +
+$(od)\plotbox.obj +
+$(od)\plotmenu.obj +
+$(od)\symbol.obj +
+$(od)\timemenu.obj +
+$(od)\userin.obj +
+$(od)\winmenu.obj
+$(ru)\project.exe
+$(od)\project.map
+$(gssl)\tccgir $(bcl)\fp87 $(bcl)\math$(MODEL) $(bcl)\c$(MODEL)
+<
+
+$(ru)\admsr.exe: admsr.obj adtests.obj textio.obj hrclock.obj dio24.obj
+    echo Linking...
+    $(bcb)\tlink $(lflags) @&&<
+$(bcl)\c0$(MODEL).obj+
+$(od)\admsr.obj +
+$(od)\adtests.obj +
+$(od)\textio.obj +
+$(od)\dio24.obj +
+$(od)\hrclock.obj
+$(ru)\admsr.exe
+$(od)\admsr.map
+$(bcl)\fp87 $(bcl)\graphics $(bcl)\math$(MODEL) $(bcl)\c$(MODEL)
+<
+
+$(ru)\testhr.exe: testhr.obj hrclock.obj
+    echo Linking...
+    $(bcb)\tlink $(lflags) @&&<
+$(bcl)\c0$(MODEL).obj+
+$(od)\testhr.obj +
+$(od)\hrclock.obj
+$(ru)\testhr.exe
+$(od)\testhr.map
+$(bcl)\fp87 $(bcl)\math$(MODEL) $(bcl)\c$(MODEL)
+<
+
+$(ru)\ttr.exe: ttr.obj hrclock.obj
+    echo Linking...
+    $(bcb)\tlink $(lflags) @&&<
+$(bcl)\c0$(MODEL).obj+
+$(od)\ttr.obj 
+#$(od)\hrclock.obj
+$(ru)\ttr.exe
+$(od)\ttr.map
+$(bcl)\fp87 $(bcl)\math$(MODEL) $(bcl)\c$(MODEL)
+<
+
+ttr.exe: ttr.obj hrclock.obj
+    echo Linking...
+    $(bcb)\tlink $(lflags) @&&<
+$(bcl)\c0$(MODEL).obj+
+$(od)\ttr.obj +
+$(od)\hrclock.obj
+ttr.exe
+$(od)\ttr.map
+$(bcl)\fp87 $(bcl)\math$(MODEL) $(bcl)\c$(MODEL)
+<
+project.obj  : project.c $(in)\project.h
+doplot.obj   : doplot.c $(in)\doplot.h
+curvdraw.obj : curvdraw.c $(in)\curvdraw.h
+datafile.obj : datafile.c $(in)\datafile.h
+device.obj   : device.c $(in)\device.h
+display.obj  : display.c $(in)\display.h
+int24.obj    : int24.asm
+plotbox.obj  : plotbox.c $(in)\plotbox.h
+symbol.obj   : symbol.c $(in)\symbol.h
+data.obj     : data.c $(in)\data.h
+winmenu.obj  : winmenu.c $(in)\winmenu.h
+
+admsr.obj    : admsr.c
+textio.obj   : textio.c
